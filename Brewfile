@@ -57,6 +57,8 @@ install brew-file
 tap sanemat/font
 
 # Other Homebrew packages
+install dos2unix
+install unix2dos
 install android-ndk
 install android-sdk
 install ant
