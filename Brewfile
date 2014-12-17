@@ -10,6 +10,7 @@ cask install asepsis
 cask install bettertouchtool
 cask install clipmenu
 cask install coteditor
+cask install dash
 cask install dropbox
 cask install emacs
 cask install flux
@@ -24,6 +25,7 @@ cask install lingon-x
 cask install menumeters
 cask install p4merge
 cask install pandoc
+cask install picasa
 cask install r
 cask install rstudio
 cask install shiftit
@@ -46,6 +48,10 @@ cask install font-roboto
 ## homebrew/boneyard
 tap homebrew/boneyard
 
+## homebrew/dupes
+tap homebrew/dupes
+install libiconv
+
 ## homebrew/versions
 tap homebrew/versions
 
@@ -57,8 +63,6 @@ install brew-file
 tap sanemat/font
 
 # Other Homebrew packages
-install dos2unix
-install unix2dos
 install android-ndk
 install android-sdk
 install ant
@@ -68,6 +72,7 @@ install cairo
 install cloog
 install czmq
 install docker
+install dos2unix
 install doxygen
 install emacs
 install fontconfig
@@ -75,9 +80,11 @@ install freetype
 install gcc
 install gdbm
 install gettext
+install giflib
 install git
 install git-flow
 install glib
+install global
 install gmp
 install go
 install gobject-introspection
@@ -85,6 +92,7 @@ install gradle
 install harfbuzz
 install icu4c
 install imagemagick
+install imlib2
 install isl
 install jenkins
 install jpeg
@@ -133,5 +141,7 @@ appstore Keynote
 appstore Microsoft Remote Desktop
 appstore MiniUsage
 appstore Numbers
+appstore PhotoX
 appstore The Unarchiver
+appstore ViewPic
 appstore Xcode
