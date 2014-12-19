@@ -58,6 +58,7 @@ tap homebrew/science
 ## homebrew/versions
 tap homebrew/versions
 
+## rcmdnk/file
 tap rcmdnk/file
 install brew-file
 
@@ -139,7 +140,7 @@ install zeromq
 install zsh
 
 # App Store applications
-appstore Stats
-appstore Xcode
 appstore MiniUsage
+appstore Stats
 appstore The Unarchiver
+appstore Xcode
