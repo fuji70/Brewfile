@@ -140,7 +140,13 @@ install zeromq
 install zsh
 
 # App Store applications
+appstore ATOKPad
+appstore GarageBand
+appstore Keynote
+appstore Microsoft Remote Desktop
 appstore MiniUsage
-appstore Stats
+appstore Numbers
+appstore PhotoX
 appstore The Unarchiver
+appstore ViewPic
 appstore Xcode
