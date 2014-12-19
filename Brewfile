@@ -58,11 +58,6 @@ tap homebrew/science
 ## homebrew/versions
 tap homebrew/versions
 
-## peco/peco
-tap peco/peco
-install peco
-
-## rcmdnk/file
 tap rcmdnk/file
 install brew-file
 
@@ -146,3 +141,5 @@ install zsh
 # App Store applications
 appstore Stats
 appstore Xcode
+appstore MiniUsage
+appstore The Unarchiver
