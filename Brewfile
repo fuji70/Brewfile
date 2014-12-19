@@ -115,6 +115,7 @@ install libtool
 install libxml2
 install libxslt
 install libyaml
+install lv
 install mercurial
 install mpfr
 install nkf
