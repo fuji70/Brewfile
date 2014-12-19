@@ -52,8 +52,15 @@ tap homebrew/boneyard
 tap homebrew/dupes
 install libiconv
 
+## homebrew/science
+tap homebrew/science
+
 ## homebrew/versions
 tap homebrew/versions
+
+## peco/peco
+tap peco/peco
+install peco
 
 ## rcmdnk/file
 tap rcmdnk/file
@@ -114,6 +121,7 @@ install nkf
 install openssl
 install pango
 install pcre
+install pidcat
 install pixman
 install pkg-config
 install python
@@ -135,13 +143,5 @@ install zeromq
 install zsh
 
 # App Store applications
-appstore ATOKPad
-appstore GarageBand
-appstore Keynote
-appstore Microsoft Remote Desktop
-appstore MiniUsage
-appstore Numbers
-appstore PhotoX
-appstore The Unarchiver
-appstore ViewPic
+appstore Stats
 appstore Xcode
