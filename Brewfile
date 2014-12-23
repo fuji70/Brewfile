@@ -6,6 +6,7 @@ tap caskroom/cask
 install brew-cask
 cask install alfred
 cask install android-studio
+cask install appcleaner
 cask install asepsis
 cask install bettertouchtool
 cask install clipmenu
@@ -16,6 +17,8 @@ cask install emacs
 cask install flux
 cask install freemind
 cask install google-chrome
+cask install haskell-platform
+cask install horndis
 cask install insomniax
 cask install iterm2
 cask install java
@@ -35,6 +38,7 @@ cask install the-unarchiver
 cask install totalterminal
 cask install vagrant
 cask install virtualbox
+cask install vlc
 cask install xquartz
 cask install xtrafinder
 
@@ -44,6 +48,12 @@ cask install font-noto-sans-japanese
 cask install font-noto-sans
 cask install font-noto-serif
 cask install font-roboto
+
+## caskroom/versions
+tap caskroom/versions
+
+## homebrew/binary
+tap homebrew/binary
 
 ## homebrew/boneyard
 tap homebrew/boneyard
@@ -64,6 +74,7 @@ install brew-file
 
 ## sanemat/font
 tap sanemat/font
+install ricty
 
 # Other Homebrew packages
 install android-ndk
@@ -71,6 +82,7 @@ install android-sdk
 install ant
 install autoconf
 install automake
+install bison
 install cairo
 install cloog
 install czmq
@@ -79,6 +91,7 @@ install dos2unix
 install doxygen
 install emacs
 install fontconfig
+install fontforge
 install freetype
 install gcc
 install gdbm
@@ -99,6 +112,8 @@ install imlib2
 install isl
 install jenkins
 install jpeg
+install jq
+install jsonpp
 install libevent
 install libffi
 install libgpg-error
@@ -123,6 +138,7 @@ install pixman
 install pkg-config
 install python
 install rbenv
+install rbenv-default-gems
 install rbenv-gem-rehash
 install rbenv-gemset
 install readline
@@ -134,6 +150,7 @@ install subversion
 install tig
 install tmux
 install tree
+install vim
 install wget
 install xz
 install zeromq
@@ -141,12 +158,22 @@ install zsh
 
 # App Store applications
 appstore ATOKPad
+appstore Battery Diag
+appstore Display Menu
+appstore Drive
 appstore GarageBand
+appstore iMovie
+appstore iPhoto
+appstore JSON XML Parser
 appstore Keynote
+appstore LadioCast
+appstore LINE
+appstore Memory Diag
+appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
-appstore MiniUsage
+appstore myTuner Radio Free
 appstore Numbers
-appstore PhotoX
+appstore Pages
+appstore TextWrangler
 appstore The Unarchiver
-appstore ViewPic
 appstore Xcode
