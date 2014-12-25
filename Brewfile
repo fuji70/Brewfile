@@ -74,7 +74,6 @@ install brew-file
 
 ## sanemat/font
 tap sanemat/font
-install ricty
 
 # Other Homebrew packages
 install android-ndk
@@ -158,22 +157,16 @@ install zsh
 
 # App Store applications
 appstore ATOKPad
-appstore Battery Diag
 appstore Display Menu
 appstore Drive
 appstore GarageBand
-appstore iMovie
-appstore iPhoto
-appstore JSON XML Parser
 appstore Keynote
-appstore LadioCast
-appstore LINE
 appstore Memory Diag
 appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
-appstore myTuner Radio Free
+appstore MiniUsage
 appstore Numbers
-appstore Pages
-appstore TextWrangler
+appstore PhotoX
 appstore The Unarchiver
+appstore ViewPic
 appstore Xcode
