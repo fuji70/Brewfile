@@ -82,6 +82,7 @@ install autoconf
 install automake
 install bison
 install cairo
+install ccache
 install cloog
 install czmq
 install docker
@@ -97,6 +98,7 @@ install gettext
 install giflib
 install git
 install git-flow
+install gitbucket
 install glib
 install global
 install gmp
@@ -125,6 +127,7 @@ install libxml2
 install libxslt
 install libyaml
 install lv
+install maven
 install mercurial
 install mpfr
 install nkf
