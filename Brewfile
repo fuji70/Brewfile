@@ -38,6 +38,7 @@ cask install the-unarchiver
 cask install totalterminal
 cask install vagrant
 cask install virtualbox
+cask install vlc
 cask install xquartz
 cask install xtrafinder
 
@@ -63,9 +64,16 @@ install libiconv
 
 ## homebrew/science
 tap homebrew/science
+install opencv
 
 ## homebrew/versions
 tap homebrew/versions
+install cloog018
+install gcc49
+install gmp4
+install isl011
+install libmpc08
+install mpfr2
 
 ## rcmdnk/file
 tap rcmdnk/file
@@ -84,10 +92,13 @@ install bison
 install cairo
 install ccache
 install cloog
+install cmake
+install cppunit
 install czmq
 install docker
 install dos2unix
 install doxygen
+install eigen
 install emacs
 install fontconfig
 install fontforge
@@ -107,6 +118,7 @@ install gobject-introspection
 install gradle
 install harfbuzz
 install icu4c
+install ilmbase
 install imagemagick
 install imlib2
 install isl
@@ -114,6 +126,7 @@ install jenkins
 install jpeg
 install jq
 install jsonpp
+install leptonica
 install libevent
 install libffi
 install libgpg-error
@@ -131,6 +144,7 @@ install maven
 install mercurial
 install mpfr
 install nkf
+install openexr
 install openssl
 install pango
 install pcre
@@ -148,6 +162,7 @@ install ruby-build
 install scons
 install sqlite
 install subversion
+install tesseract
 install tig
 install tmux
 install tree
@@ -158,7 +173,17 @@ install zeromq
 install zsh
 
 # App Store applications
+appstore ATOKPad
+appstore Display Menu
+appstore Drive
+appstore GarageBand
+appstore Keynote
+appstore Memory Diag
+appstore Microsoft OneNote
+appstore Microsoft Remote Desktop
 appstore MiniUsage
-appstore Stats
+appstore Numbers
+appstore PhotoX
 appstore The Unarchiver
+appstore ViewPic
 appstore Xcode
