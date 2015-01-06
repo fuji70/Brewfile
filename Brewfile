@@ -17,6 +17,7 @@ cask install emacs
 cask install flux
 cask install freemind
 cask install google-chrome
+cask install haroopad
 cask install haskell-platform
 cask install horndis
 cask install insomniax
