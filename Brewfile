@@ -144,6 +144,7 @@ install lv
 install maven
 install mercurial
 install mpfr
+install mysql
 install nkf
 install openexr
 install openssl
@@ -152,6 +153,7 @@ install pcre
 install pidcat
 install pixman
 install pkg-config
+install postgresql
 install python
 install rbenv
 install rbenv-default-gems
