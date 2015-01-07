@@ -39,6 +39,7 @@ cask install the-unarchiver
 cask install totalterminal
 cask install vagrant
 cask install virtualbox
+cask install vlc
 cask install xquartz
 cask install xtrafinder
 
@@ -173,7 +174,17 @@ install zeromq
 install zsh
 
 # App Store applications
+appstore ATOKPad
+appstore Display Menu
+appstore Drive
+appstore GarageBand
+appstore Keynote
+appstore Memory Diag
+appstore Microsoft OneNote
+appstore Microsoft Remote Desktop
 appstore MiniUsage
-appstore Stats
+appstore Numbers
+appstore PhotoX
 appstore The Unarchiver
+appstore ViewPic
 appstore Xcode
