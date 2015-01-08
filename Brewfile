@@ -52,6 +52,7 @@ cask install font-roboto
 
 ## caskroom/versions
 tap caskroom/versions
+cask install java6
 
 ## homebrew/binary
 tap homebrew/binary
@@ -149,6 +150,7 @@ install nkf
 install openexr
 install openssl
 install pango
+install parallel
 install pcre
 install pidcat
 install pixman
