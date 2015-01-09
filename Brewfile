@@ -14,12 +14,14 @@ cask install coteditor
 cask install dash
 cask install dropbox
 cask install emacs
+cask install filezilla
 cask install flux
 cask install freemind
 cask install google-chrome
 cask install haroopad
 cask install haskell-platform
 cask install horndis
+cask install hosts
 cask install insomniax
 cask install iterm2
 cask install java
