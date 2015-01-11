@@ -32,6 +32,7 @@ cask install menumeters
 cask install p4merge
 cask install pandoc
 cask install picasa
+cask install playonmac
 cask install r
 cask install rstudio
 cask install shiftit
@@ -85,6 +86,7 @@ install brew-file
 
 ## sanemat/font
 tap sanemat/font
+install ricty
 
 # Other Homebrew packages
 install android-ndk
@@ -121,6 +123,7 @@ install go
 install gobject-introspection
 install gradle
 install harfbuzz
+install heroku-toolbelt
 install icu4c
 install ilmbase
 install imagemagick
@@ -160,6 +163,7 @@ install pkg-config
 install postgresql
 install python
 install rbenv
+install rbenv-bundler
 install rbenv-default-gems
 install rbenv-gem-rehash
 install rbenv-gemset
@@ -181,16 +185,22 @@ install zsh
 
 # App Store applications
 appstore ATOKPad
+appstore Battery Diag
 appstore Display Menu
 appstore Drive
 appstore GarageBand
+appstore iMovie
+appstore iPhoto
+appstore JSON XML Parser
 appstore Keynote
+appstore LadioCast
+appstore LINE
 appstore Memory Diag
 appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
-appstore MiniUsage
+appstore myTuner Radio Free
 appstore Numbers
-appstore PhotoX
-appstore The Unarchiver
-appstore ViewPic
+appstore Pages
+appstore SimpleMind Free
+appstore TextWrangler
 appstore Xcode
