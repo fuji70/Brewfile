@@ -190,11 +190,8 @@ appstore Display Menu
 appstore Drive
 appstore GarageBand
 appstore iMovie
-appstore iPhoto
 appstore JSON XML Parser
 appstore Keynote
-appstore LadioCast
-appstore LINE
 appstore Memory Diag
 appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
