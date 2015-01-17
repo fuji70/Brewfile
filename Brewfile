@@ -160,6 +160,7 @@ install pcre
 install pidcat
 install pixman
 install pkg-config
+install pngquant
 install postgresql
 install python
 install rbenv
@@ -179,6 +180,7 @@ install tmux
 install tree
 install vim
 install wget
+install xctool
 install xz
 install zeromq
 install zsh
@@ -190,14 +192,20 @@ appstore Display Menu
 appstore Drive
 appstore GarageBand
 appstore iMovie
+appstore iPhoto
 appstore JSON XML Parser
 appstore Keynote
+appstore LadioCast
+appstore LINE
+appstore MARKETSPEED
 appstore Memory Diag
 appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
+appstore myTuner News Pro
 appstore myTuner Radio Free
 appstore Numbers
 appstore Pages
 appstore SimpleMind Free
 appstore TextWrangler
+appstore The Unarchiver
 appstore Xcode
