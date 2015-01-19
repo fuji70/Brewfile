@@ -171,6 +171,7 @@ install readline
 install ruby
 install ruby-build
 install scons
+install smartmontools
 install sqlite
 install subversion
 install tesseract
@@ -185,26 +186,7 @@ install zeromq
 install zsh
 
 # App Store applications
-appstore ATOKPad
-appstore Battery Diag
-appstore Display Menu
-appstore Drive
-appstore GarageBand
-appstore iMovie
-appstore iPhoto
-appstore JSON XML Parser
-appstore Keynote
-appstore LadioCast
-appstore LINE
-appstore MARKETSPEED
-appstore Memory Diag
-appstore Microsoft OneNote
-appstore Microsoft Remote Desktop
-appstore myTuner News Pro
-appstore myTuner Radio Free
-appstore Numbers
-appstore Pages
-appstore SimpleMind Free
-appstore TextWrangler
+appstore MiniUsage
+appstore Stats
 appstore The Unarchiver
 appstore Xcode
