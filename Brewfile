@@ -14,12 +14,14 @@ cask install coteditor
 cask install dash
 cask install dropbox
 cask install emacs
+cask install filezilla
 cask install flux
 cask install freemind
 cask install google-chrome
 cask install haroopad
 cask install haskell-platform
 cask install horndis
+cask install hosts
 cask install insomniax
 cask install iterm2
 cask install java
@@ -30,6 +32,7 @@ cask install menumeters
 cask install p4merge
 cask install pandoc
 cask install picasa
+cask install playonmac
 cask install r
 cask install rstudio
 cask install shiftit
@@ -82,6 +85,7 @@ install brew-file
 
 ## sanemat/font
 tap sanemat/font
+install ricty
 
 # Other Homebrew packages
 install android-ndk
@@ -118,6 +122,7 @@ install go
 install gobject-introspection
 install gradle
 install harfbuzz
+install heroku-toolbelt
 install icu4c
 install ilmbase
 install imagemagick
@@ -154,9 +159,11 @@ install pcre
 install pidcat
 install pixman
 install pkg-config
+install pngquant
 install postgresql
 install python
 install rbenv
+install rbenv-bundler
 install rbenv-default-gems
 install rbenv-gem-rehash
 install rbenv-gemset
@@ -172,22 +179,32 @@ install tmux
 install tree
 install vim
 install wget
+install xctool
 install xz
 install zeromq
 install zsh
 
 # App Store applications
 appstore ATOKPad
+appstore Battery Diag
 appstore Display Menu
 appstore Drive
 appstore GarageBand
+appstore iMovie
+appstore iPhoto
+appstore JSON XML Parser
 appstore Keynote
+appstore LadioCast
+appstore LINE
+appstore MARKETSPEED
 appstore Memory Diag
 appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
-appstore MiniUsage
+appstore myTuner News Pro
+appstore myTuner Radio Free
 appstore Numbers
-appstore PhotoX
+appstore Pages
+appstore SimpleMind Free
+appstore TextWrangler
 appstore The Unarchiver
-appstore ViewPic
 appstore Xcode
