@@ -163,7 +163,6 @@ install pngquant
 install postgresql
 install python
 install rbenv
-install rbenv-bundler
 install rbenv-default-gems
 install rbenv-gem-rehash
 install rbenv-gemset
