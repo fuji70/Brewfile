@@ -26,6 +26,7 @@ cask install insomniax
 cask install iterm2
 cask install java
 cask install jdiskreport
+cask install karabiner
 cask install kobito
 cask install lingon-x
 cask install menumeters
@@ -42,6 +43,7 @@ cask install the-unarchiver
 cask install totalterminal
 cask install vagrant
 cask install virtualbox
+cask install vlc
 cask install xquartz
 cask install xtrafinder
 
@@ -65,6 +67,10 @@ tap homebrew/boneyard
 ## homebrew/dupes
 tap homebrew/dupes
 install libiconv
+
+## homebrew/python
+tap homebrew/python
+install numpy
 
 ## homebrew/science
 tap homebrew/science
@@ -163,6 +169,7 @@ install pngquant
 install postgresql
 install python
 install rbenv
+install rbenv-bundler
 install rbenv-default-gems
 install rbenv-gem-rehash
 install rbenv-gemset
@@ -185,7 +192,26 @@ install zeromq
 install zsh
 
 # App Store applications
-appstore MiniUsage
-appstore Stats
+appstore ATOKPad
+appstore Battery Diag
+appstore Display Menu
+appstore Drive
+appstore GarageBand
+appstore iMovie
+appstore iPhoto
+appstore JSON XML Parser
+appstore Keynote
+appstore LadioCast
+appstore LINE
+appstore MARKETSPEED
+appstore Memory Diag
+appstore Microsoft OneNote
+appstore Microsoft Remote Desktop
+appstore myTuner News Pro
+appstore myTuner Radio Free
+appstore Numbers
+appstore Pages
+appstore SimpleMind Free
+appstore TextWrangler
 appstore The Unarchiver
 appstore Xcode
