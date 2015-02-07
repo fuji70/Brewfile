@@ -9,6 +9,7 @@ cask install android-studio
 cask install appcleaner
 cask install asepsis
 cask install bettertouchtool
+cask install ccleaner
 cask install clipmenu
 cask install coteditor
 cask install dash
