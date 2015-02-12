@@ -4,6 +4,7 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install accessmenubarapps
 cask install alfred
 cask install android-studio
 cask install appcleaner
@@ -14,6 +15,7 @@ cask install clipmenu
 cask install coteditor
 cask install dash
 cask install dropbox
+cask install eclipse-ide
 cask install emacs
 cask install filezilla
 cask install flux
@@ -64,10 +66,12 @@ tap homebrew/binary
 
 ## homebrew/boneyard
 tap homebrew/boneyard
+install wkhtmltopdf
 
 ## homebrew/dupes
 tap homebrew/dupes
 install libiconv
+install unzip
 
 ## homebrew/python
 tap homebrew/python
@@ -75,7 +79,7 @@ install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv
+install opencv --with-java
 
 ## homebrew/versions
 tap homebrew/versions
@@ -105,13 +109,14 @@ install cairo
 install ccache
 install cloog
 install cmake
+install convmv
 install cppunit
 install czmq
 install docker
 install dos2unix
 install doxygen
 install eigen
-install emacs
+install emacs --cocoa --with-gnutls
 install fontconfig
 install fontforge
 install freetype
@@ -125,6 +130,7 @@ install gitbucket
 install glib
 install global
 install gmp
+install gnutls
 install go
 install gobject-introspection
 install gradle
@@ -147,6 +153,7 @@ install libksba
 install libmpc
 install libpng
 install libsodium
+install libtasn1
 install libtiff
 install libtool
 install libxml2
@@ -157,6 +164,7 @@ install maven
 install mercurial
 install mpfr
 install mysql
+install nettle
 install nkf
 install openexr
 install openssl
@@ -169,6 +177,7 @@ install pkg-config
 install pngquant
 install postgresql
 install python
+install qt
 install rbenv
 install rbenv-bundler
 install rbenv-default-gems
@@ -194,25 +203,16 @@ install zsh
 
 # App Store applications
 appstore ATOKPad
-appstore Battery Diag
 appstore Display Menu
 appstore Drive
 appstore GarageBand
-appstore iMovie
-appstore iPhoto
-appstore JSON XML Parser
 appstore Keynote
-appstore LadioCast
-appstore LINE
-appstore MARKETSPEED
 appstore Memory Diag
 appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
-appstore myTuner News Pro
-appstore myTuner Radio Free
+appstore MiniUsage
 appstore Numbers
-appstore Pages
-appstore SimpleMind Free
-appstore TextWrangler
+appstore PhotoX
 appstore The Unarchiver
+appstore ViewPic
 appstore Xcode
