@@ -42,6 +42,7 @@ cask install rstudio
 cask install shiftit
 cask install skitch
 cask install sourcetree
+cask install svnx
 cask install the-unarchiver
 cask install totalterminal
 cask install vagrant
@@ -110,6 +111,7 @@ install ccache
 install cloog
 install cmake
 install convmv
+install coreutils
 install cppunit
 install czmq
 install docker
