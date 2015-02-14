@@ -10,6 +10,7 @@ cask install android-studio
 cask install appcleaner
 cask install asepsis
 cask install bettertouchtool
+cask install catchmouse
 cask install ccleaner
 cask install clipmenu
 cask install coteditor
@@ -80,7 +81,7 @@ install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv --with-java
+install opencv
 
 ## homebrew/versions
 tap homebrew/versions
@@ -118,7 +119,7 @@ install docker
 install dos2unix
 install doxygen
 install eigen
-install emacs --cocoa --with-gnutls
+install emacs
 install fontconfig
 install fontforge
 install freetype
@@ -205,16 +206,25 @@ install zsh
 
 # App Store applications
 appstore ATOKPad
+appstore Battery Diag
 appstore Display Menu
 appstore Drive
 appstore GarageBand
+appstore iMovie
+appstore iPhoto
+appstore JSON XML Parser
 appstore Keynote
+appstore LadioCast
+appstore LINE
+appstore MARKETSPEED
 appstore Memory Diag
 appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
-appstore MiniUsage
+appstore myTuner News Pro
+appstore myTuner Radio Free
 appstore Numbers
-appstore PhotoX
+appstore Pages
+appstore SimpleMind Free
+appstore TextWrangler
 appstore The Unarchiver
-appstore ViewPic
 appstore Xcode
