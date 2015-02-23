@@ -43,6 +43,7 @@ cask install rstudio
 cask install shiftit
 cask install skitch
 cask install sourcetree
+cask install sqlitebrowser
 cask install svnx
 cask install the-unarchiver
 cask install totalterminal
