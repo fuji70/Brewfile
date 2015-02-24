@@ -114,6 +114,7 @@ install cloog
 install cmake
 install convmv
 install coreutils
+install cppcheck
 install cppunit
 install czmq
 install docker
@@ -178,6 +179,7 @@ install pcre
 install pidcat
 install pixman
 install pkg-config
+install pmd
 install pngquant
 install postgresql
 install python
