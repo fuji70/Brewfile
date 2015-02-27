@@ -9,7 +9,6 @@ cask install alfred
 cask install android-studio
 cask install appcleaner
 cask install asepsis
-cask install bettertouchtool
 cask install catchmouse
 cask install ccleaner
 cask install clipmenu
