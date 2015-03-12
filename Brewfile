@@ -22,6 +22,7 @@ cask install filezilla
 cask install flux
 cask install freemind
 cask install google-chrome
+cask install graphviz
 cask install haroopad
 cask install haskell-platform
 cask install horndis
@@ -82,7 +83,7 @@ install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv --with-java
+install opencv
 
 ## homebrew/versions
 tap homebrew/versions
@@ -121,7 +122,7 @@ install docker
 install dos2unix
 install doxygen
 install eigen
-install emacs --cocoa --with-gnutls
+install emacs
 install fontconfig
 install fontforge
 install freetype
@@ -208,17 +209,7 @@ install zeromq
 install zsh
 
 # App Store applications
-appstore ATOKPad
-appstore Display Menu
-appstore Drive
-appstore GarageBand
-appstore Keynote
-appstore Memory Diag
-appstore Microsoft OneNote
-appstore Microsoft Remote Desktop
 appstore MiniUsage
-appstore Numbers
-appstore PhotoX
+appstore Stats
 appstore The Unarchiver
-appstore ViewPic
 appstore Xcode
