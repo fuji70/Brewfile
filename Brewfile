@@ -84,7 +84,7 @@ install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv
+install opencv --with-java
 
 ## homebrew/versions
 tap homebrew/versions
@@ -112,6 +112,7 @@ install automake
 install bison
 install cairo
 install ccache
+install clang-format
 install cloog
 install cmake
 install convmv
@@ -123,7 +124,7 @@ install docker
 install dos2unix
 install doxygen
 install eigen
-install emacs
+install emacs --cocoa --with-gnutls
 install fontconfig
 install fontforge
 install freetype
@@ -211,25 +212,17 @@ install zsh
 
 # App Store applications
 appstore ATOKPad
-appstore Battery Diag
 appstore Display Menu
 appstore Drive
 appstore GarageBand
-appstore iMovie
-appstore iPhoto
-appstore JSON XML Parser
 appstore Keynote
-appstore LadioCast
-appstore LINE
-appstore MARKETSPEED
 appstore Memory Diag
 appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
-appstore myTuner News Pro
-appstore myTuner Radio Free
+appstore MiniUsage
 appstore Numbers
-appstore Pages
-appstore SimpleMind Free
-appstore TextWrangler
+appstore PhotoX
+appstore Shazam
 appstore The Unarchiver
+appstore ViewPic
 appstore Xcode
