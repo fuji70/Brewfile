@@ -84,7 +84,7 @@ install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv --with-java
+install opencv --with-java --with-java
 
 ## homebrew/versions
 tap homebrew/versions
@@ -124,7 +124,7 @@ install docker
 install dos2unix
 install doxygen
 install eigen
-install emacs --cocoa --with-gnutls
+install emacs --cocoa --with-gnutls --with-gnutls --with-cocoa
 install fontconfig
 install fontforge
 install freetype
