@@ -32,6 +32,7 @@ cask install iterm2
 cask install java
 cask install jdiskreport
 cask install karabiner
+cask install kitematic
 cask install kobito
 cask install lingon-x
 cask install menumeters
@@ -182,9 +183,12 @@ install pcre
 install pidcat
 install pixman
 install pkg-config
+install plenv
 install pmd
 install pngquant
 install postgresql
+install pyenv
+install pyenv-virtualenv
 install python
 install qt
 install rbenv
@@ -212,7 +216,7 @@ install zsh
 
 # App Store applications
 appstore ATOKPad
-appstore Battery Diag
+appstore Battery Monitor
 appstore Display Menu
 appstore Drive
 appstore GarageBand
@@ -223,7 +227,7 @@ appstore Keynote
 appstore LadioCast
 appstore LINE
 appstore MARKETSPEED
-appstore Memory Diag
+appstore Memory Monitor
 appstore Microsoft OneNote
 appstore Microsoft Remote Desktop
 appstore myTuner News Pro
