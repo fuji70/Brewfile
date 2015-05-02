@@ -149,6 +149,7 @@ install gobject-introspection
 install gradle
 install harfbuzz
 install heroku-toolbelt
+install htop-osx
 install icu4c
 install ilmbase
 install imagemagick
@@ -179,6 +180,7 @@ install mpfr
 install mysql
 install nettle
 install nkf
+install node
 install openexr
 install openssl
 install pango
