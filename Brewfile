@@ -9,6 +9,7 @@ cask install alfred
 cask install android-studio
 cask install appcleaner
 cask install asepsis
+cask install atom
 cask install bettertouchtool
 cask install catchmouse
 cask install ccleaner
@@ -20,6 +21,7 @@ cask install dropbox
 cask install eclipse-ide
 cask install emacs
 cask install filezilla
+cask install flashlight
 cask install flux
 cask install freemind
 cask install google-chrome
@@ -78,6 +80,7 @@ install wkhtmltopdf
 
 ## homebrew/dupes
 tap homebrew/dupes
+install apple-gcc42
 install libiconv
 install unzip
 
@@ -87,7 +90,7 @@ install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv
+install opencv --with-java
 
 ## homebrew/versions
 tap homebrew/versions
@@ -129,7 +132,7 @@ install docker
 install dos2unix
 install doxygen
 install eigen
-install emacs
+install emacs --with-gnutls --with-cocoa
 install fontconfig
 install fontforge
 install freetype
@@ -188,6 +191,7 @@ install pango
 install parallel
 install pcre
 install perl-build
+install phantomjs
 install pidcat
 install pixman
 install pkg-config
@@ -224,26 +228,16 @@ install zsh
 
 # App Store applications
 appstore ATOKPad
-appstore Battery Monitor
 appstore Display Menu
 appstore Drive
 appstore GarageBand
-appstore iMovie
-appstore iPhoto
-appstore JSON XML Parser
 appstore Keynote
-appstore LadioCast
-appstore LINE
-appstore MARKETSPEED
 appstore Memory Monitor
 appstore Microsoft Remote Desktop
-appstore myTuner News Pro
-appstore myTuner Radio Free
+appstore MiniUsage
 appstore Numbers
-appstore Pages
-appstore SimpleMind Free
-appstore TextWrangler
+appstore PhotoX
+appstore Shazam
 appstore The Unarchiver
-appstore ToyViewer
-appstore Typist
+appstore ViewPic
 appstore Xcode
