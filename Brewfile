@@ -190,6 +190,7 @@ install openssl
 install pango
 install parallel
 install pcre
+install peco
 install perl-build
 install phantomjs
 install pidcat
