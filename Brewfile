@@ -9,10 +9,12 @@ cask install alfred
 cask install android-studio
 cask install appcleaner
 cask install asepsis
+cask install astah-community
 cask install atom
 cask install bettertouchtool
 cask install catchmouse
 cask install ccleaner
+cask install cheatsheet
 cask install clipmenu
 cask install coteditor
 cask install dash
@@ -35,6 +37,7 @@ cask install iterm2
 cask install java
 cask install jdiskreport
 cask install karabiner
+cask install kdiff3
 cask install kitematic
 cask install kobito
 cask install lingon-x
@@ -75,6 +78,7 @@ tap homebrew/binary
 
 ## homebrew/boneyard
 tap homebrew/boneyard
+install celt
 install pyenv-pip-rehash
 install wkhtmltopdf
 
@@ -90,7 +94,7 @@ install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv
+install opencv --with-jasper --with-qt --with-tbb --with-ffmpeg
 
 ## homebrew/versions
 tap homebrew/versions
@@ -100,6 +104,10 @@ install gmp4
 install isl011
 install libmpc08
 install mpfr2
+
+## homebrew/x11
+tap homebrew/x11
+install meld
 
 ## rcmdnk/file
 tap rcmdnk/file
@@ -113,6 +121,7 @@ install ricty
 install android-ndk
 install android-sdk
 install ant
+install atk
 install autoconf
 install automake
 install bison
@@ -132,13 +141,18 @@ install docker
 install dos2unix
 install doxygen
 install eigen
-install emacs
+install emacs --with-gnutls --with-cocoa
+install faac
+install fdk-aac
+install ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
 install fontconfig
 install fontforge
 install freetype
+install fribidi
 install fswatch
 install gcc
 install gdbm
+install gdk-pixbuf
 install gettext
 install giflib
 install git
@@ -151,6 +165,8 @@ install gnutls
 install go
 install gobject-introspection
 install gradle
+install gtk+
+install gtksourceview
 install harfbuzz
 install heroku-toolbelt
 install htop-osx
@@ -158,25 +174,34 @@ install icu4c
 install ilmbase
 install imagemagick
 install imlib2
+install intltool
 install isl
+install jasper
 install jenkins
 install jpeg
 install jq
 install jsonpp
+install lame
 install leptonica
+install libass
 install libevent
 install libffi
 install libgpg-error
 install libksba
 install libmpc
+install libogg
 install libpng
 install libsodium
 install libtasn1
 install libtiff
 install libtool
+install libvo-aacenc
+install libvorbis
+install libvpx
 install libxml2
 install libxslt
 install libyaml
+install little-cms2
 install lv
 install maven
 install mercurial
@@ -185,8 +210,12 @@ install mysql
 install nettle
 install nkf
 install node
+install opencore-amr
 install openexr
+install openjpeg
 install openssl
+install opus
+install orc
 install pango
 install parallel
 install pcre
@@ -200,10 +229,15 @@ install plenv
 install pmd
 install pngquant
 install postgresql
+install py2cairo
 install pyenv
 install pyenv-virtualenv
+install pygobject
+install pygtk
+install pygtksourceview
 install python
 install qt
+install rarian
 install rbenv
 install rbenv-bundler
 install rbenv-default-gems
@@ -212,18 +246,28 @@ install rbenv-gemset
 install readline
 install ruby
 install ruby-build
+install schroedinger
 install scons
+install sdl
+install shtool
 install smartmontools
+install speex
 install sqlite
 install subversion
+install tbb
 install tesseract
+install texi2html
+install theora
 install tig
 install tmux
 install tree
 install vim
 install wget
+install x264
 install xctool
+install xvid
 install xz
+install yasm
 install zeromq
 install zsh
 
@@ -233,22 +277,14 @@ appstore Battery Monitor
 appstore Display Menu
 appstore Drive
 appstore GarageBand
-appstore iMovie
-appstore iPhoto
-appstore JSON XML Parser
 appstore Keynote
-appstore LadioCast
-appstore LINE
-appstore MARKETSPEED
 appstore Memory Monitor
 appstore Microsoft Remote Desktop
-appstore myTuner News Pro
-appstore myTuner Radio Free
+appstore MiniUsage
 appstore Numbers
-appstore Pages
-appstore SimpleMind Free
-appstore TextWrangler
+appstore PhotoX
+appstore Relax Melodies
+appstore Shazam
 appstore The Unarchiver
-appstore ToyViewer
-appstore Typist
+appstore ViewPic
 appstore Xcode
