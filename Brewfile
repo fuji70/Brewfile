@@ -94,7 +94,7 @@ brew numpy
 
 ## homebrew/science
 tap homebrew/science
-brew opencv --with-jasper --with-qt --with-tbb --with-ffmpeg --with-jasper --with-qt --with-tbb --with-ffmpeg
+brew opencv --with-jasper --with-qt --with-ffmpeg
 
 ## homebrew/versions
 tap homebrew/versions
