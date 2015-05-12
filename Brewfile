@@ -94,7 +94,6 @@ brew numpy
 
 ## homebrew/science
 tap homebrew/science
-brew opencv --with-jasper --with-qt --with-ffmpeg
 
 ## homebrew/versions
 tap homebrew/versions
@@ -141,7 +140,7 @@ brew docker
 brew dos2unix
 brew doxygen
 brew eigen
-brew emacs --with-gnutls --with-cocoa
+brew emacs
 brew faac
 brew fdk-aac
 brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
@@ -239,6 +238,7 @@ brew python
 brew qt
 brew rarian
 brew rbenv
+brew rbenv-binstubs
 brew rbenv-bundler
 brew rbenv-default-gems
 brew rbenv-gem-rehash
@@ -272,19 +272,7 @@ brew zeromq
 brew zsh
 
 # App Store applications
-appstore ATOKPad
-appstore Battery Monitor
-appstore Display Menu
-appstore Drive
-appstore GarageBand
-appstore Keynote
-appstore Memory Monitor
-appstore Microsoft Remote Desktop
 appstore MiniUsage
-appstore Numbers
-appstore PhotoX
-appstore Relax Melodies
-appstore Shazam
+appstore Stats
 appstore The Unarchiver
-appstore ViewPic
 appstore Xcode
