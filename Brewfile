@@ -3,273 +3,273 @@
 
 ## caskroom/cask
 tap caskroom/cask
-install brew-cask
-cask install accessmenubarapps
-cask install alfred
-cask install android-studio
-cask install appcleaner
-cask install asepsis
-cask install astah-community
-cask install atom
-cask install bettertouchtool
-cask install catchmouse
-cask install ccleaner
-cask install cheatsheet
-cask install clipmenu
-cask install coteditor
-cask install dash
-cask install docker-machine
-cask install dropbox
-cask install eclipse-ide
-cask install emacs
-cask install filezilla
-cask install flashlight
-cask install flux
-cask install freemind
-cask install google-chrome
-cask install graphviz
-cask install haroopad
-cask install haskell-platform
-cask install horndis
-cask install hosts
-cask install insomniax
-cask install iterm2
-cask install java
-cask install jdiskreport
-cask install karabiner
-cask install kdiff3
-cask install kitematic
-cask install kobito
-cask install lingon-x
-cask install menumeters
-cask install p4merge
-cask install pandoc
-cask install picasa
-cask install playonmac
-cask install r
-cask install rstudio
-cask install shiftit
-cask install skitch
-cask install sourcetree
-cask install sqlitebrowser
-cask install svnx
-cask install the-unarchiver
-cask install totalterminal
-cask install vagrant
-cask install virtualbox
-cask install vlc
-cask install xquartz
-cask install xtrafinder
+brew brew-cask
+cask accessmenubarapps
+cask alfred
+cask android-studio
+cask appcleaner
+cask asepsis
+cask astah-community
+cask atom
+cask bettertouchtool
+cask catchmouse
+cask ccleaner
+cask cheatsheet
+cask clipmenu
+cask coteditor
+cask dash
+cask docker-machine
+cask dropbox
+cask eclipse-ide
+cask emacs
+cask filezilla
+cask flashlight
+cask flux
+cask freemind
+cask google-chrome
+cask graphviz
+cask haroopad
+cask haskell-platform
+cask horndis
+cask hosts
+cask insomniax
+cask iterm2
+cask java
+cask jdiskreport
+cask karabiner
+cask kdiff3
+cask kitematic
+cask kobito
+cask lingon-x
+cask menumeters
+cask p4merge
+cask pandoc
+cask picasa
+cask playonmac
+cask r
+cask rstudio
+cask shiftit
+cask skitch
+cask sourcetree
+cask sqlitebrowser
+cask svnx
+cask the-unarchiver
+cask totalterminal
+cask vagrant
+cask virtualbox
+cask vlc
+cask xquartz
+cask xtrafinder
 
 ## caskroom/fonts
 tap caskroom/fonts
-cask install font-noto-sans-japanese
-cask install font-noto-sans
-cask install font-noto-serif
-cask install font-roboto
+cask font-noto-sans-japanese
+cask font-noto-sans
+cask font-noto-serif
+cask font-roboto
 
 ## caskroom/versions
 tap caskroom/versions
-cask install java6
-cask install java7
+cask java6
+cask java7
 
 ## homebrew/binary
 tap homebrew/binary
 
 ## homebrew/boneyard
 tap homebrew/boneyard
-install celt
-install pyenv-pip-rehash
-install wkhtmltopdf
+brew celt
+brew pyenv-pip-rehash
+brew wkhtmltopdf
 
 ## homebrew/dupes
 tap homebrew/dupes
-install apple-gcc42
-install libiconv
-install unzip
+brew apple-gcc42
+brew libiconv
+brew unzip
 
 ## homebrew/python
 tap homebrew/python
-install numpy
+brew numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv --with-jasper --with-qt --with-tbb --with-ffmpeg
+brew opencv --with-jasper --with-qt --with-tbb --with-ffmpeg --with-jasper --with-qt --with-tbb --with-ffmpeg
 
 ## homebrew/versions
 tap homebrew/versions
-install cloog018
-install gcc49
-install gmp4
-install isl011
-install libmpc08
-install mpfr2
+brew cloog018
+brew gcc49
+brew gmp4
+brew isl011
+brew libmpc08
+brew mpfr2
 
 ## homebrew/x11
 tap homebrew/x11
-install meld
+brew meld
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+brew brew-file
 
 ## sanemat/font
 tap sanemat/font
-install ricty
+brew ricty
 
 # Other Homebrew packages
-install android-ndk
-install android-sdk
-install ant
-install atk
-install autoconf
-install automake
-install bison
-install boot2docker
-install cairo
-install ccache
-install clang-format
-install cloog
-install cmake
-install convmv
-install coreutils
-install cpanminus
-install cppcheck
-install cppunit
-install czmq
-install docker
-install dos2unix
-install doxygen
-install eigen
-install emacs --with-gnutls --with-cocoa
-install faac
-install fdk-aac
-install ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
-install fontconfig
-install fontforge
-install freetype
-install fribidi
-install fswatch
-install gcc
-install gdbm
-install gdk-pixbuf
-install gettext
-install giflib
-install git
-install git-flow
-install gitbucket
-install glib
-install global
-install gmp
-install gnutls
-install go
-install gobject-introspection
-install gradle
-install gtk+
-install gtksourceview
-install harfbuzz
-install heroku-toolbelt
-install htop-osx
-install icu4c
-install ilmbase
-install imagemagick
-install imlib2
-install intltool
-install isl
-install jasper
-install jenkins
-install jpeg
-install jq
-install jsonpp
-install lame
-install leptonica
-install libass
-install libevent
-install libffi
-install libgpg-error
-install libksba
-install libmpc
-install libogg
-install libpng
-install libsodium
-install libtasn1
-install libtiff
-install libtool
-install libvo-aacenc
-install libvorbis
-install libvpx
-install libxml2
-install libxslt
-install libyaml
-install little-cms2
-install lv
-install maven
-install mercurial
-install mpfr
-install mysql
-install nettle
-install nkf
-install node
-install opencore-amr
-install openexr
-install openjpeg
-install openssl
-install opus
-install orc
-install pango
-install parallel
-install pcre
-install peco
-install perl-build
-install phantomjs
-install pidcat
-install pixman
-install pkg-config
-install plenv
-install pmd
-install pngquant
-install postgresql
-install py2cairo
-install pyenv
-install pyenv-virtualenv
-install pygobject
-install pygtk
-install pygtksourceview
-install python
-install qt
-install rarian
-install rbenv
-install rbenv-bundler
-install rbenv-default-gems
-install rbenv-gem-rehash
-install rbenv-gemset
-install readline
-install ruby
-install ruby-build
-install schroedinger
-install scons
-install sdl
-install shtool
-install smartmontools
-install speex
-install sqlite
-install subversion
-install tbb
-install tesseract
-install texi2html
-install theora
-install tig
-install tmux
-install tree
-install vim
-install wget
-install x264
-install xctool
-install xvid
-install xz
-install yasm
-install zeromq
-install zsh
+brew android-ndk
+brew android-sdk
+brew ant
+brew atk
+brew autoconf
+brew automake
+brew bison
+brew boot2docker
+brew cairo
+brew ccache
+brew clang-format
+brew cloog
+brew cmake
+brew convmv
+brew coreutils
+brew cpanminus
+brew cppcheck
+brew cppunit
+brew czmq
+brew docker
+brew dos2unix
+brew doxygen
+brew eigen
+brew emacs --with-gnutls --with-cocoa
+brew faac
+brew fdk-aac
+brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
+brew fontconfig
+brew fontforge
+brew freetype
+brew fribidi
+brew fswatch
+brew gcc
+brew gdbm
+brew gdk-pixbuf
+brew gettext
+brew giflib
+brew git
+brew git-flow
+brew gitbucket
+brew glib
+brew global
+brew gmp
+brew gnutls
+brew go
+brew gobject-introspection
+brew gradle
+brew gtk+
+brew gtksourceview
+brew harfbuzz
+brew heroku-toolbelt
+brew htop-osx
+brew icu4c
+brew ilmbase
+brew imagemagick
+brew imlib2
+brew intltool
+brew isl
+brew jasper
+brew jenkins
+brew jpeg
+brew jq
+brew jsonpp
+brew lame
+brew leptonica
+brew libass
+brew libevent
+brew libffi
+brew libgpg-error
+brew libksba
+brew libmpc
+brew libogg
+brew libpng
+brew libsodium
+brew libtasn1
+brew libtiff
+brew libtool
+brew libvo-aacenc
+brew libvorbis
+brew libvpx
+brew libxml2
+brew libxslt
+brew libyaml
+brew little-cms2
+brew lv
+brew maven
+brew mercurial
+brew mpfr
+brew mysql
+brew nettle
+brew nkf
+brew node
+brew opencore-amr
+brew openexr
+brew openjpeg
+brew openssl
+brew opus
+brew orc
+brew pango
+brew parallel
+brew pcre
+brew peco
+brew perl-build
+brew phantomjs
+brew pidcat
+brew pixman
+brew pkg-config
+brew plenv
+brew pmd
+brew pngquant
+brew postgresql
+brew py2cairo
+brew pyenv
+brew pyenv-virtualenv
+brew pygobject
+brew pygtk
+brew pygtksourceview
+brew python
+brew qt
+brew rarian
+brew rbenv
+brew rbenv-bundler
+brew rbenv-default-gems
+brew rbenv-gem-rehash
+brew rbenv-gemset
+brew readline
+brew ruby
+brew ruby-build
+brew schroedinger
+brew scons
+brew sdl
+brew shtool
+brew smartmontools
+brew speex
+brew sqlite
+brew subversion
+brew tbb
+brew tesseract
+brew texi2html
+brew theora
+brew tig
+brew tmux
+brew tree
+brew vim
+brew wget
+brew x264
+brew xctool
+brew xvid
+brew xz
+brew yasm
+brew zeromq
+brew zsh
 
 # App Store applications
 appstore ATOKPad
@@ -286,4 +286,5 @@ appstore PhotoX
 appstore Relax Melodies
 appstore Shazam
 appstore The Unarchiver
+appstore ViewPic
 appstore Xcode
