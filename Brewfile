@@ -94,7 +94,7 @@ install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv --with-jasper --with-qt --with-tbb --with-ffmpeg
+install opencv
 
 ## homebrew/versions
 tap homebrew/versions
@@ -141,7 +141,7 @@ install docker
 install dos2unix
 install doxygen
 install eigen
-install emacs --with-gnutls --with-cocoa
+install emacs
 install faac
 install fdk-aac
 install ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
@@ -239,6 +239,7 @@ install python
 install qt
 install rarian
 install rbenv
+install rbenv-binstubs
 install rbenv-bundler
 install rbenv-default-gems
 install rbenv-gem-rehash
@@ -272,18 +273,7 @@ install zeromq
 install zsh
 
 # App Store applications
-appstore ATOKPad
-appstore Battery Monitor
-appstore Display Menu
-appstore Drive
-appstore GarageBand
-appstore Keynote
-appstore Memory Monitor
-appstore Microsoft Remote Desktop
 appstore MiniUsage
-appstore Numbers
-appstore PhotoX
-appstore Relax Melodies
-appstore Shazam
+appstore Stats
 appstore The Unarchiver
 appstore Xcode
