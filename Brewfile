@@ -94,7 +94,7 @@ brew numpy
 
 ## homebrew/science
 tap homebrew/science
-brew opencv --with-jasper --with-qt --with-ffmpeg
+brew opencv --with-jasper --with-qt --with-tbb --with-ffmpeg
 
 ## homebrew/versions
 tap homebrew/versions
@@ -273,7 +273,19 @@ brew zeromq
 brew zsh
 
 # App Store applications
+appstore ATOKPad
+appstore Battery Monitor
+appstore Display Menu
+appstore Drive
+appstore GarageBand
+appstore Keynote
+appstore Memory Monitor
+appstore Microsoft Remote Desktop
 appstore MiniUsage
-appstore Stats
+appstore Numbers
+appstore PhotoX
+appstore Relax Melodies
+appstore Shazam
 appstore The Unarchiver
+appstore ViewPic
 appstore Xcode
