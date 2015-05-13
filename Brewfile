@@ -94,6 +94,7 @@ brew numpy
 
 ## homebrew/science
 tap homebrew/science
+brew opencv --with-jasper --with-qt --with-ffmpeg
 
 ## homebrew/versions
 tap homebrew/versions
@@ -140,7 +141,7 @@ brew docker
 brew dos2unix
 brew doxygen
 brew eigen
-brew emacs
+brew emacs --with-gnutls --with-cocoa
 brew faac
 brew fdk-aac
 brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
