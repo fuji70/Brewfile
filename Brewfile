@@ -32,6 +32,7 @@ cask haroopad
 cask haskell-platform
 cask horndis
 cask hosts
+cask ichm
 cask insomniax
 cask iterm2
 cask java
@@ -144,12 +145,13 @@ brew eigen
 brew emacs --with-gnutls --with-cocoa
 brew faac
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
+brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
 brew fontconfig
 brew fontforge
 brew freetype
 brew fribidi
 brew fswatch
+brew gawk
 brew gcc
 brew gdbm
 brew gdk-pixbuf
@@ -161,12 +163,17 @@ brew gitbucket
 brew glib
 brew global
 brew gmp
+brew gnu-sed
 brew gnutls
 brew go
 brew gobject-introspection
 brew gradle
+brew gsettings-desktop-schemas
 brew gtk+
+brew gtk+3
+brew gtk-mac-integration
 brew gtksourceview
+brew gtksourceview3
 brew harfbuzz
 brew heroku-toolbelt
 brew htop-osx
@@ -184,6 +191,7 @@ brew jsonpp
 brew lame
 brew leptonica
 brew libass
+brew libepoxy
 brew libevent
 brew libffi
 brew libgpg-error
@@ -229,10 +237,12 @@ brew plenv
 brew pmd
 brew pngquant
 brew postgresql
+brew pv
 brew py2cairo
 brew pyenv
 brew pyenv-virtualenv
 brew pygobject
+brew pygobject3
 brew pygtk
 brew pygtksourceview
 brew python
@@ -262,7 +272,9 @@ brew theora
 brew tig
 brew tmux
 brew tree
+brew unrar
 brew vim
+brew webp
 brew wget
 brew x264
 brew xctool
@@ -289,3 +301,6 @@ appstore Shazam
 appstore The Unarchiver
 appstore ViewPic
 appstore Xcode
+appstore XPS-PDF
+appstore XPS-Reader
+appstore XPS-to-PDF Lite
