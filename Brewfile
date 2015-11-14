@@ -12,10 +12,13 @@ cask asepsis
 cask astah-community
 cask atom
 cask bettertouchtool
+cask betterzipql
 cask catchmouse
 cask ccleaner
 cask cheatsheet
 cask clipmenu
+cask clipy
+cask coolterm
 cask coteditor
 cask dash
 cask docker-machine
@@ -47,6 +50,10 @@ cask p4merge
 cask pandoc
 cask picasa
 cask playonmac
+cask qlmarkdown
+cask qlstephen
+cask quicklook-csv
+cask quicklook-json
 cask r
 cask rstudio
 cask shiftit
