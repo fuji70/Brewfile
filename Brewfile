@@ -3,10 +3,10 @@
 
 ## caskroom/cask
 tap caskroom/cask
-brew brew-cask
 cask accessmenubarapps
 cask alfred
 cask android-studio
+cask anki
 cask appcleaner
 cask asepsis
 cask astah-community
@@ -43,9 +43,9 @@ cask jdiskreport
 cask karabiner
 cask kdiff3
 cask kitematic
-cask kobito
 cask lingon-x
 cask menumeters
+cask osxfuse
 cask p4merge
 cask pandoc
 cask picasa
@@ -89,6 +89,9 @@ tap homebrew/boneyard
 brew celt
 brew pyenv-pip-rehash
 brew wkhtmltopdf
+
+## homebrew/boneyard
+tap homebrew/boneyard
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -144,6 +147,7 @@ brew coreutils
 brew cpanminus
 brew cppcheck
 brew cppunit
+brew curlpp
 brew czmq
 brew docker
 brew dos2unix
@@ -160,12 +164,14 @@ brew fribidi
 brew fswatch
 brew gawk
 brew gcc
+brew gdb
 brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew giflib
 brew git
 brew git-flow
+brew git-secrets
 brew gitbucket
 brew glib
 brew global
