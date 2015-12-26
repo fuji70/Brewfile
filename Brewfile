@@ -176,6 +176,7 @@ brew gitbucket
 brew glib
 brew global
 brew gmp
+brew gnome-icon-theme
 brew gnu-sed
 brew gnutls
 brew go
@@ -189,6 +190,7 @@ brew gtksourceview
 brew gtksourceview3
 brew harfbuzz
 brew heroku-toolbelt
+brew hicolor-icon-theme
 brew htop-osx
 brew icu4c
 brew ilmbase
@@ -209,6 +211,7 @@ brew libevent
 brew libffi
 brew libgpg-error
 brew libksba
+brew liblo
 brew libmpc
 brew libogg
 brew libpng
@@ -231,6 +234,7 @@ brew mysql
 brew nettle
 brew nkf
 brew node
+brew oniguruma
 brew opencore-amr
 brew openexr
 brew openjpeg
