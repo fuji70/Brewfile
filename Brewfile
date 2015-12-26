@@ -306,7 +306,6 @@ appstore ATOKPad
 appstore Battery Monitor
 appstore Display Menu
 appstore Drive
-appstore GarageBand
 appstore Keynote
 appstore Memory Monitor
 appstore Microsoft Remote Desktop
@@ -314,9 +313,7 @@ appstore MiniUsage
 appstore Numbers
 appstore PhotoX
 appstore Relax Melodies
-appstore Shazam
 appstore The Unarchiver
-appstore ViewPic
 appstore Xcode
 appstore XPS-PDF
 appstore XPS-Reader
