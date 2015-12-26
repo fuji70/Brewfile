@@ -269,7 +269,6 @@ brew rbenv
 brew rbenv-binstubs
 brew rbenv-bundler
 brew rbenv-default-gems
-brew rbenv-gem-rehash
 brew rbenv-gemset
 brew readline
 brew ruby
