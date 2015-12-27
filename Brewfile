@@ -90,9 +90,6 @@ brew celt
 brew pyenv-pip-rehash
 brew wkhtmltopdf
 
-## homebrew/boneyard
-tap homebrew/boneyard
-
 ## homebrew/dupes
 tap homebrew/dupes
 brew apple-gcc42
@@ -156,7 +153,7 @@ brew eigen
 brew emacs --with-gnutls --with-cocoa
 brew faac
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
+brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
 brew fontconfig
 brew fontforge
 brew freetype
@@ -305,14 +302,19 @@ appstore ATOKPad
 appstore Battery Monitor
 appstore Display Menu
 appstore Drive
+appstore GarageBand
+appstore iMovie
 appstore Keynote
 appstore Memory Monitor
 appstore Microsoft Remote Desktop
 appstore MiniUsage
 appstore Numbers
+appstore Pages
 appstore PhotoX
 appstore Relax Melodies
 appstore The Unarchiver
+appstore ToyViewer
+appstore ViewPic
 appstore Xcode
 appstore XPS-PDF
 appstore XPS-Reader
