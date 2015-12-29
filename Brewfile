@@ -133,6 +133,7 @@ brew atk
 brew autoconf
 brew automake
 brew bison
+brew boost
 brew boot2docker
 brew cairo
 brew ccache
@@ -231,6 +232,7 @@ brew mysql
 brew nettle
 brew nkf
 brew node
+brew nodebrew
 brew oniguruma
 brew opencore-amr
 brew openexr
