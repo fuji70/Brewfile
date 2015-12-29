@@ -275,6 +275,7 @@ brew scons
 brew sdl
 brew shtool
 brew smartmontools
+brew source-highlight
 brew speex
 brew sqlite
 brew subversion
