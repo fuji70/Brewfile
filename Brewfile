@@ -231,6 +231,7 @@ brew mysql
 brew nettle
 brew nkf
 brew node
+brew nodebrew
 brew oniguruma
 brew opencore-amr
 brew openexr
