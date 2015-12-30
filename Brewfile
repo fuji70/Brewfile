@@ -150,6 +150,7 @@ brew czmq
 brew docker
 brew dos2unix
 brew doxygen
+brew dropbox-encore
 brew eigen
 brew emacs --with-gnutls --with-cocoa
 brew faac
