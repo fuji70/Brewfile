@@ -1,8 +1,8 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
-tap caskroom/cask
+## Caskroom/cask
+tap Caskroom/cask
 cask accessmenubarapps
 cask alfred
 cask android-studio
@@ -68,6 +68,9 @@ cask virtualbox
 cask vlc
 cask xquartz
 cask xtrafinder
+
+## caskroom/cask
+tap caskroom/cask
 
 ## caskroom/fonts
 tap caskroom/fonts
