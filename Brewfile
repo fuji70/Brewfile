@@ -307,11 +307,7 @@ appstore Display Menu
 appstore Drive
 appstore GarageBand
 appstore iMovie
-appstore iPhoto
-appstore JSON XML Parser
 appstore Keynote
-appstore LadioCast
-appstore LINE
 appstore Memory Monitor
 appstore Microsoft Remote Desktop
 appstore MiniUsage
@@ -319,7 +315,7 @@ appstore Numbers
 appstore Pages
 appstore PhotoX
 appstore Relax Melodies
-appstore SimpleMind Free
+appstore The Unarchiver
 appstore ToyViewer
 appstore ViewPic
 appstore Xcode
