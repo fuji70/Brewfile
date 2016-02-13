@@ -21,7 +21,6 @@ cask clipy
 cask coolterm
 cask coteditor
 cask dash
-cask docker-machine
 cask dropbox-encore
 cask dropbox
 cask eclipse-ide
@@ -36,7 +35,6 @@ cask haroopad
 cask haskell-platform
 cask horndis
 cask hosts
-cask ichm
 cask insomniax
 cask iterm2
 cask java
@@ -116,7 +114,6 @@ brew mpfr2
 
 ## homebrew/x11
 tap homebrew/x11
-brew meld
 
 ## rcmdnk/file
 tap rcmdnk/file
@@ -125,6 +122,9 @@ brew brew-file
 ## sanemat/font
 tap sanemat/font
 brew ricty
+
+## tldr-pages/tldr
+tap tldr-pages/tldr
 
 # Other Homebrew packages
 brew android-ndk
@@ -191,6 +191,7 @@ brew harfbuzz
 brew heroku-toolbelt
 brew hicolor-icon-theme
 brew htop-osx
+brew hub
 brew icu4c
 brew ilmbase
 brew imagemagick
@@ -224,9 +225,11 @@ brew libvpx
 brew libxml2
 brew libxslt
 brew libyaml
+brew libzip
 brew little-cms2
 brew lv
 brew maven
+brew meld
 brew mercurial
 brew mpfr
 brew mysql
@@ -287,6 +290,7 @@ brew tesseract
 brew texi2html
 brew theora
 brew tig
+brew tldr
 brew tmux
 brew tree
 brew unrar
