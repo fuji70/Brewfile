@@ -113,6 +113,9 @@ brew ricty
 
 tap tldr-pages/tldr
 
+tap argon/mas
+brew mas
+
 # Other Homebrew packages
 brew android-ndk
 brew android-sdk
