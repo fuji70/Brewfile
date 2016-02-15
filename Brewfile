@@ -123,6 +123,7 @@ brew ant
 brew atk
 brew autoconf
 brew automake
+brew bazel
 brew bison
 brew boost
 brew boot2docker
@@ -275,6 +276,7 @@ brew source-highlight
 brew speex
 brew sqlite
 brew subversion
+brew swig
 brew tbb
 brew tesseract
 brew texi2html
