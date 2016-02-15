@@ -40,7 +40,6 @@ cask java
 cask jdiskreport
 cask karabiner
 cask kdiff3
-cask kitematic
 cask lingon-x
 cask menumeters
 cask osxfuse
@@ -126,7 +125,6 @@ brew automake
 brew bazel
 brew bison
 brew boost
-brew boot2docker
 brew cairo
 brew ccache
 brew clang-format
@@ -140,7 +138,6 @@ brew cppunit
 brew curl
 brew curlpp
 brew czmq
-brew docker
 brew dos2unix
 brew doxygen
 brew eigen
