@@ -1,7 +1,6 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
 tap caskroom/cask
 cask accessmenubarapps
 cask alfred
@@ -68,42 +67,34 @@ cask vlc
 cask xquartz
 cask xtrafinder
 
-## caskroom/fonts
 tap caskroom/fonts
 cask font-noto-sans-japanese
 cask font-noto-sans
 cask font-noto-serif
 cask font-roboto
 
-## caskroom/versions
 tap caskroom/versions
 cask java6
 cask java7
 
-## homebrew/binary
 tap homebrew/binary
 
-## homebrew/boneyard
 tap homebrew/boneyard
 brew celt
 brew pyenv-pip-rehash
 brew wkhtmltopdf
 
-## homebrew/dupes
 tap homebrew/dupes
 brew apple-gcc42
 brew libiconv
 brew unzip
 
-## homebrew/python
 tap homebrew/python
 brew numpy
 
-## homebrew/science
 tap homebrew/science
 brew opencv --with-jasper --with-qt --with-tbb --with-ffmpeg
 
-## homebrew/versions
 tap homebrew/versions
 brew cloog018
 brew gcc49
@@ -112,18 +103,14 @@ brew isl011
 brew libmpc08
 brew mpfr2
 
-## homebrew/x11
 tap homebrew/x11
 
-## rcmdnk/file
 tap rcmdnk/file
 brew brew-file
 
-## sanemat/font
 tap sanemat/font
 brew ricty
 
-## tldr-pages/tldr
 tap tldr-pages/tldr
 
 # Other Homebrew packages
@@ -133,6 +120,7 @@ brew ant
 brew atk
 brew autoconf
 brew automake
+brew bazel
 brew bison
 brew boost
 brew boot2docker
@@ -146,6 +134,7 @@ brew coreutils
 brew cpanminus
 brew cppcheck
 brew cppunit
+brew curl
 brew curlpp
 brew czmq
 brew docker
@@ -285,6 +274,7 @@ brew source-highlight
 brew speex
 brew sqlite
 brew subversion
+brew swig
 brew tbb
 brew tesseract
 brew texi2html
