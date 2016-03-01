@@ -1,6 +1,9 @@
 
 # tap repositories and their packages
 
+tap argon/mas
+brew mas
+
 tap caskroom/cask
 cask accessmenubarapps
 cask alfred
@@ -20,6 +23,7 @@ cask clipy
 cask coolterm
 cask coteditor
 cask dash
+cask dockertoolbox
 cask dropbox-encore
 cask dropbox
 cask eclipse-ide
@@ -111,9 +115,6 @@ tap sanemat/font
 brew ricty
 
 tap tldr-pages/tldr
-
-tap argon/mas
-brew mas
 
 # Other Homebrew packages
 brew android-ndk
@@ -218,7 +219,6 @@ brew libzip
 brew little-cms2
 brew lv
 brew maven
-brew meld
 brew mercurial
 brew mpfr
 brew mysql
@@ -247,6 +247,7 @@ brew pmd
 brew pngquant
 brew postgresql
 brew pv
+brew pwgen
 brew py2cairo
 brew pyenv
 brew pyenv-virtualenv
@@ -296,28 +297,23 @@ brew zeromq
 brew zsh
 
 # App Store applications
-appstore ATOKPad
-appstore Battery Monitor
-appstore Display Menu
-appstore Drive
-appstore GarageBand
-appstore iMovie
-appstore iPhoto
-appstore JSON XML Parser
-appstore Keynote
-appstore LadioCast
-appstore LINE
-appstore Memory Monitor
-appstore Microsoft Remote Desktop
-appstore MiniUsage
-appstore Numbers
-appstore Pages
-appstore PhotoX
-appstore Relax Melodies
-appstore SimpleMind Free
-appstore ToyViewer
-appstore ViewPic
-appstore Xcode
-appstore XPS-PDF
-appstore XPS-Reader
-appstore XPS-to-PDF Lite
+appstore 460883588 ATOKPad
+appstore 836505650 Battery Monitor
+appstore 549083868 Display Menu
+appstore 947393436 Drive
+appstore 682658836 GarageBand
+appstore 409183694 Keynote
+appstore 748212890 Memory Monitor
+appstore 715768417 Microsoft Remote Desktop
+appstore 416285394 MiniUsage
+appstore 409203825 Numbers
+appstore 409201541 Pages
+appstore 894540810 PhotoX
+appstore 467103113 Relax Melodies
+appstore 414298354 ToyViewer
+appstore 899361067 ViewPic
+appstore 733144646 XPS-PDF
+appstore 733144613 XPS-Reader
+appstore 849734925 XPS-to-PDF Lite
+appstore 497799835 Xcode
+appstore 408981434 iMovie
