@@ -96,7 +96,7 @@ tap homebrew/python
 brew numpy
 
 tap homebrew/science
-brew opencv --with-jasper --with-qt --with-tbb --with-ffmpeg
+brew opencv --with-qt
 
 tap homebrew/versions
 brew cloog018
