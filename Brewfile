@@ -285,6 +285,7 @@ brew tldr
 brew tmux
 brew tree
 brew unrar
+brew valgrind
 brew vim
 brew webp
 brew wget
