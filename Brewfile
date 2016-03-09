@@ -15,6 +15,7 @@ cask astah-community
 cask atom
 cask bettertouchtool
 cask betterzipql
+cask bitbar
 cask catchmouse
 cask ccleaner
 cask cheatsheet
