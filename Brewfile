@@ -72,7 +72,6 @@ cask xquartz
 cask xtrafinder
 
 tap caskroom/fonts
-cask font-noto-sans-japanese
 cask font-noto-sans
 cask font-noto-serif
 cask font-roboto
@@ -288,6 +287,7 @@ brew tree
 brew unrar
 brew valgrind
 brew vim
+brew vimpager
 brew webp
 brew wget
 brew x264
@@ -298,6 +298,11 @@ brew yasm
 brew zeromq
 brew zsh
 
+# Below applications were installed by Cask,
+# but do not have corresponding casks.
+
+#cask font-noto-sans-japanese (!)
+
 # App Store applications
 appstore 460883588 ATOKPad
 appstore 836505650 Battery Monitor
@@ -306,7 +311,6 @@ appstore 947393436 Drive
 appstore 682658836 GarageBand
 appstore 409183694 Keynote
 appstore 748212890 Memory Monitor
-appstore 715768417 Microsoft Remote Desktop
 appstore 416285394 MiniUsage
 appstore 409203825 Numbers
 appstore 409201541 Pages
