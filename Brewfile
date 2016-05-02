@@ -45,6 +45,7 @@ cask java
 cask jdiskreport
 cask karabiner
 cask kdiff3
+cask launchrocket
 cask lingon-x
 cask menumeters
 cask osxfuse
@@ -118,7 +119,7 @@ brew eigen
 brew emacs --with-gnutls --with-cocoa
 brew faac
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
+brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
 brew fontconfig
 brew fontforge
 brew freetype
@@ -164,7 +165,7 @@ brew jpeg
 brew jq
 brew jsonpp
 brew lame
-brew lastpass-cli --with-pinentry --with-doc --with-pinentry --with-doc
+brew lastpass-cli --with-pinentry --with-doc
 brew leptonica
 brew libass
 brew libassuan
@@ -273,6 +274,8 @@ brew numpy
 
 tap homebrew/science
 brew opencv --with-qt
+
+tap homebrew/services
 
 tap homebrew/versions
 brew cloog018
