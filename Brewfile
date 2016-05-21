@@ -48,6 +48,7 @@ cask kdiff3
 cask launchrocket
 cask lingon-x
 cask menumeters
+cask mp3gain-express
 cask osxfuse
 cask p4merge
 cask pandoc
@@ -119,7 +120,7 @@ brew eigen
 brew emacs --with-gnutls --with-cocoa
 brew faac
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
+brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
 brew fontconfig
 brew fontforge
 brew freetype
@@ -131,10 +132,12 @@ brew gdb
 brew gdbm
 brew gdk-pixbuf
 brew gettext
+brew giflib
 brew git-flow
 brew git-secrets
 brew git
 brew gitbucket
+brew glib
 brew global
 brew gmp
 brew gnome-icon-theme
@@ -151,15 +154,16 @@ brew gtk-mac-integration
 brew gtksourceview
 brew gtksourceview3
 brew harfbuzz
-brew heroku-toolbelt
 brew hicolor-icon-theme
 brew htop-osx
+brew hub
 brew icu4c
 brew ilmbase
 brew imagemagick
 brew imlib2
 brew intltool
 brew isl
+brew jasper
 brew jenkins
 brew jpeg
 brew jq
@@ -172,6 +176,7 @@ brew libassuan
 brew libepoxy
 brew libevent
 brew libffi
+brew libgpg-error
 brew libksba
 brew liblo
 brew libmpc
@@ -193,12 +198,16 @@ brew lv
 brew makedepend
 brew maven
 brew mercurial
+brew mp3gain
+brew mpfr
 brew mysql
 brew nettle
 brew nkf
 brew node
 brew nodebrew
 brew oniguruma
+brew opencore-amr
+brew openexr
 brew openjpeg
 brew openssl
 brew opus
@@ -230,12 +239,14 @@ brew python
 brew qt
 brew rarian
 brew rbenv-binstubs
+brew rbenv-bundler
 brew rbenv-default-gems
 brew rbenv-gemset
 brew rbenv
 brew readline
 brew ruby-build
 brew ruby
+brew schroedinger
 brew scons
 brew sdl
 brew shtool
@@ -246,14 +257,18 @@ brew sphinx-doc
 brew sqlite
 brew subversion
 brew swig
+brew tbb
+brew terminal-notifier
 brew tesseract
 brew texi2html
 brew theora
 brew tig
 brew tmux
 brew tree
+brew unrar
 brew valgrind
 brew vim
+brew vimpager
 brew webp
 brew wget
 brew x264
@@ -273,7 +288,7 @@ tap homebrew/python
 brew numpy
 
 tap homebrew/science
-brew opencv --with-qt
+brew opencv --with-jasper --with-qt --with-tbb --with-ffmpeg
 
 tap homebrew/services
 
@@ -294,23 +309,7 @@ tap sanemat/font
 brew ricty
 
 tap tldr-pages/tldr
-
-# Other Homebrew packages
-brew giflib
-brew glib
-brew hub
-brew jasper
-brew libgpg-error
-brew mpfr
-brew opencore-amr
-brew openexr
-brew rbenv-bundler
-brew schroedinger
-brew tbb
-brew terminal-notifier
 brew tldr
-brew unrar
-brew vimpager
 
 # Below applications were installed by Cask,
 # but do not have corresponding casks.
