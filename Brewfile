@@ -24,7 +24,6 @@ cask clipy
 cask coolterm
 cask coteditor
 cask dash
-cask dockertoolbox
 cask dropbox-encore
 cask dropbox
 cask eclipse-ide
@@ -34,7 +33,7 @@ cask flashlight
 cask flux
 cask freemind
 cask google-chrome
-cask graphviz
+cask google-cloud-sdk
 cask haroopad
 cask haskell-platform
 cask horndis
@@ -51,14 +50,12 @@ cask menumeters
 cask mp3gain-express
 cask osxfuse
 cask p4merge
-cask pandoc
 cask picasa
 cask playonmac
 cask qlmarkdown
 cask qlstephen
 cask quicklook-csv
 cask quicklook-json
-cask r
 cask rstudio
 cask shiftit
 cask skitch
@@ -97,6 +94,7 @@ brew asciidoc
 brew atk
 brew autoconf
 brew automake
+brew awscli
 brew bazel
 brew bison
 brew boost
@@ -105,6 +103,7 @@ brew ccache
 brew clang-format
 brew cloog
 brew cmake
+brew connect
 brew convmv
 brew coreutils
 brew cpanminus
@@ -133,7 +132,9 @@ brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew giflib
+brew ghq
 brew git-flow
+brew git-lfs
 brew git-secrets
 brew git
 brew gitbucket
@@ -171,12 +172,14 @@ brew jsonpp
 brew lame
 brew lastpass-cli --with-pinentry --with-doc
 brew leptonica
+brew libarchive
 brew libass
 brew libassuan
 brew libepoxy
 brew libevent
 brew libffi
 brew libgpg-error
+brew libgcrypt
 brew libksba
 brew liblo
 brew libmpc
@@ -190,13 +193,18 @@ brew libvo-aacenc
 brew libvorbis
 brew libvpx
 brew libxml2
+brew libxmlsec1
 brew libxslt
 brew libyaml
 brew libzip
 brew little-cms2
+brew lsyncd
+brew lua
 brew lv
+brew m-cli
 brew makedepend
 brew maven
+brew md5sha1sum
 brew mercurial
 brew mp3gain
 brew mpfr
@@ -236,7 +244,9 @@ brew pygobject3
 brew pygtk
 brew pygtksourceview
 brew python
+brew python3
 brew qt
+brew qt5
 brew rarian
 brew rbenv-binstubs
 brew rbenv-bundler
@@ -244,6 +254,7 @@ brew rbenv-default-gems
 brew rbenv-gemset
 brew rbenv
 brew readline
+brew redpen
 brew ruby-build
 brew ruby
 brew schroedinger
@@ -251,6 +262,7 @@ brew scons
 brew sdl
 brew shtool
 brew smartmontools
+brew socat
 brew source-highlight
 brew speex
 brew sphinx-doc
@@ -281,7 +293,9 @@ brew zsh
 
 tap homebrew/dupes
 brew apple-gcc42
+brew expect
 brew libiconv
+brew rsync
 brew unzip
 
 tap homebrew/python
@@ -294,6 +308,7 @@ tap homebrew/services
 
 tap homebrew/versions
 brew cloog018
+brew gcc48 --with-fortran
 brew gcc49
 brew gmp4
 brew isl011
@@ -309,9 +324,25 @@ tap sanemat/font
 brew ricty
 
 tap tldr-pages/tldr
+
+# Other Homebrew packages
+brew giflib
+brew glib
+brew heroku-toolbelt
+brew hub
+brew jasper
+brew libgpg-error
+brew mpfr
+brew opencore-amr
+brew openexr
+brew rbenv-bundler
+brew schroedinger
+brew tbb
+brew terminal-notifier
 brew tldr
 
-# Below applications were installed by Cask,
-# but do not have corresponding casks.
-
-#cask font-noto-sans-japanese (!)
+# Cask applications
+cask dockertoolbox
+cask graphviz
+cask pandoc
+cask r
