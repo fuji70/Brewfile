@@ -7,29 +7,18 @@ brew mas
 tap caskroom/cask
 cask accessmenubarapps
 cask alfred
-cask android-studio
 cask anki
 cask appcleaner
 cask asepsis
 cask astah-community
 cask atom
-cask bettertouchtool
 cask betterzipql
-cask bitbar
-cask catchmouse
 cask ccleaner
 cask cheatsheet
 cask clipmenu
-cask clipy
-cask coolterm
 cask coteditor
-cask dash
-cask dropbox-encore
 cask dropbox
-cask eclipse-ide
 cask emacs
-cask filezilla
-cask flashlight
 cask flux
 cask freemind
 cask google-chrome
@@ -38,11 +27,11 @@ cask haroopad
 cask haskell-platform
 cask horndis
 cask hosts
+cask ichm
 cask insomniax
 cask iterm2
 cask java
 cask jdiskreport
-cask karabiner
 cask kdiff3
 cask launchrocket
 cask lingon-x
@@ -56,17 +45,15 @@ cask qlmarkdown
 cask qlstephen
 cask quicklook-csv
 cask quicklook-json
+cask r-app
 cask rstudio
-cask shiftit
 cask skitch
 cask sourcetree
-cask sqlitebrowser
-cask svnx
 cask the-unarchiver
-cask totalterminal
 cask vagrant
 cask virtualbox
 cask vlc
+cask wireshark
 cask xquartz
 cask xtrafinder
 
@@ -116,10 +103,10 @@ brew docbook
 brew dos2unix
 brew doxygen
 brew eigen
-brew emacs --with-gnutls --with-cocoa
+brew emacs
 brew faac
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
+brew ffmpeg
 brew fontconfig
 brew fontforge
 brew freetype
@@ -131,14 +118,12 @@ brew gdb
 brew gdbm
 brew gdk-pixbuf
 brew gettext
-brew giflib
 brew ghq
 brew git-flow
 brew git-lfs
 brew git-secrets
 brew git
 brew gitbucket
-brew glib
 brew global
 brew gmp
 brew gnome-icon-theme
@@ -148,6 +133,7 @@ brew go
 brew gobject-introspection
 brew gradle
 brew graphite2
+brew grip
 brew gsettings-desktop-schemas
 brew gtk+
 brew gtk+3
@@ -155,22 +141,21 @@ brew gtk-mac-integration
 brew gtksourceview
 brew gtksourceview3
 brew harfbuzz
+brew heroku
 brew hicolor-icon-theme
 brew htop-osx
-brew hub
 brew icu4c
 brew ilmbase
 brew imagemagick
 brew imlib2
 brew intltool
 brew isl
-brew jasper
 brew jenkins
 brew jpeg
 brew jq
 brew jsonpp
 brew lame
-brew lastpass-cli --with-pinentry --with-doc
+brew lastpass-cli
 brew leptonica
 brew libarchive
 brew libass
@@ -178,7 +163,6 @@ brew libassuan
 brew libepoxy
 brew libevent
 brew libffi
-brew libgpg-error
 brew libgcrypt
 brew libksba
 brew liblo
@@ -201,21 +185,19 @@ brew little-cms2
 brew lsyncd
 brew lua
 brew lv
+brew lynx
 brew m-cli
 brew makedepend
 brew maven
 brew md5sha1sum
 brew mercurial
 brew mp3gain
-brew mpfr
 brew mysql
 brew nettle
 brew nkf
 brew node
 brew nodebrew
 brew oniguruma
-brew opencore-amr
-brew openexr
 brew openjpeg
 brew openssl
 brew opus
@@ -233,7 +215,9 @@ brew pkg-config
 brew plenv
 brew pmd
 brew pngquant
+brew portaudio
 brew postgresql
+brew progress
 brew pv
 brew pwgen
 brew py2cairo
@@ -249,7 +233,6 @@ brew qt
 brew qt5
 brew rarian
 brew rbenv-binstubs
-brew rbenv-bundler
 brew rbenv-default-gems
 brew rbenv-gemset
 brew rbenv
@@ -257,9 +240,9 @@ brew readline
 brew redpen
 brew ruby-build
 brew ruby
-brew schroedinger
 brew scons
 brew sdl
+brew shared-mime-info
 brew shtool
 brew smartmontools
 brew socat
@@ -269,18 +252,15 @@ brew sphinx-doc
 brew sqlite
 brew subversion
 brew swig
-brew tbb
-brew terminal-notifier
 brew tesseract
 brew texi2html
 brew theora
 brew tig
 brew tmux
 brew tree
-brew unrar
+brew utf8proc
 brew valgrind
 brew vim
-brew vimpager
 brew webp
 brew wget
 brew x264
@@ -302,13 +282,13 @@ tap homebrew/python
 brew numpy
 
 tap homebrew/science
-brew opencv --with-jasper --with-qt --with-tbb --with-ffmpeg
+brew opencv
 
 tap homebrew/services
 
 tap homebrew/versions
 brew cloog018
-brew gcc48 --with-fortran
+brew gcc48
 brew gcc49
 brew gmp4
 brew isl011
@@ -339,10 +319,30 @@ brew rbenv-bundler
 brew schroedinger
 brew tbb
 brew terminal-notifier
+brew the_silver_searcher
 brew tldr
+brew unrar
+brew vimpager
 
-# Cask applications
-cask dockertoolbox
-cask graphviz
-cask pandoc
-cask r
+# App Store applications
+appstore 460883588 ATOKPad
+appstore 1037126344 Apple Configurator 2
+appstore 549083868 Display Menu
+appstore 931202332 MiniPlayer
+appstore 416285394 MiniUsage
+appstore 409203825 Numbers
+appstore 928941247 OTP Manager
+appstore 409201541 Pages
+appstore 894540810 PhotoX
+appstore 568494494 Pocket
+appstore 907364780 Pomodoro One
+appstore 467103113 Relax Melodies
+appstore 1086818840 Rocket.Chat+
+appstore 803453959 Slack
+appstore 414298354 ToyViewer
+appstore 899361067 ViewPic
+appstore 733144646 XPS-PDF
+appstore 733144613 XPS-Reader
+appstore 849734925 XPS-to-PDF Lite
+appstore 497799835 Xcode
+appstore 408981434 iMovie
