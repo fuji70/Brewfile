@@ -270,6 +270,22 @@ brew xz
 brew yasm
 brew zeromq
 brew zsh
+brew giflib
+brew glib
+brew hub
+brew jasper
+brew libgpg-error
+brew mpfr
+brew opencore-amr
+brew openexr
+brew rbenv-bundler
+brew schroedinger
+brew tbb
+brew terminal-notifier
+brew the_silver_searcher
+brew tldr
+brew unrar
+brew vimpager
 
 tap homebrew/dupes
 brew apple-gcc42
@@ -306,23 +322,7 @@ brew ricty
 tap tldr-pages/tldr
 
 # Other Homebrew packages
-brew giflib
-brew glib
 brew heroku-toolbelt
-brew hub
-brew jasper
-brew libgpg-error
-brew mpfr
-brew opencore-amr
-brew openexr
-brew rbenv-bundler
-brew schroedinger
-brew tbb
-brew terminal-notifier
-brew the_silver_searcher
-brew tldr
-brew unrar
-brew vimpager
 
 # App Store applications
 appstore 460883588 ATOKPad
