@@ -37,6 +37,7 @@ cask launchrocket
 cask lingon-x
 cask menumeters
 cask mp3gain-express
+cask mysqlworkbench
 cask osxfuse
 cask p4merge
 cask picasa
@@ -47,6 +48,7 @@ cask quicklook-csv
 cask quicklook-json
 cask r-app
 cask rstudio
+cask shiftit
 cask skitch
 cask sourcetree
 cask the-unarchiver
@@ -70,13 +72,15 @@ tap homebrew/binary
 
 tap homebrew/boneyard
 brew celt
+brew powerline
 brew pyenv-pip-rehash
 brew wkhtmltopdf
 
 tap homebrew/core
-brew android-ndk
-brew android-sdk
 brew ant
+brew apache-spark
+brew apr
+brew apr-util
 brew asciidoc
 brew atk
 brew autoconf
@@ -85,6 +89,7 @@ brew awscli
 brew bazel
 brew bison
 brew boost
+brew boost-python
 brew cairo
 brew ccache
 brew clang-format
@@ -103,10 +108,10 @@ brew docbook
 brew dos2unix
 brew doxygen
 brew eigen
-brew emacs
+brew emacs --with-gnutls --with-cocoa
 brew faac
 brew fdk-aac
-brew ffmpeg
+brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg --with-libvorbis --with-libvpx --with-theora
 brew fontconfig
 brew fontforge
 brew freetype
@@ -119,11 +124,13 @@ brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew ghq
+brew giflib
+brew git
 brew git-flow
 brew git-lfs
 brew git-secrets
-brew git
 brew gitbucket
+brew glib
 brew global
 brew gmp
 brew gnome-icon-theme
@@ -144,18 +151,21 @@ brew harfbuzz
 brew heroku
 brew hicolor-icon-theme
 brew htop-osx
+brew httpstat
+brew hub
 brew icu4c
 brew ilmbase
 brew imagemagick
 brew imlib2
 brew intltool
 brew isl
+brew jasper
 brew jenkins
 brew jpeg
 brew jq
 brew jsonpp
 brew lame
-brew lastpass-cli
+brew lastpass-cli --with-pinentry --with-doc
 brew leptonica
 brew libarchive
 brew libass
@@ -164,6 +174,7 @@ brew libepoxy
 brew libevent
 brew libffi
 brew libgcrypt
+brew libgpg-error
 brew libksba
 brew liblo
 brew libmpc
@@ -192,12 +203,16 @@ brew maven
 brew md5sha1sum
 brew mercurial
 brew mp3gain
+brew mpfr
+brew mycli
 brew mysql
 brew nettle
 brew nkf
 brew node
 brew nodebrew
 brew oniguruma
+brew opencore-amr
+brew openexr
 brew openjpeg
 brew openssl
 brew opus
@@ -221,27 +236,31 @@ brew progress
 brew pv
 brew pwgen
 brew py2cairo
-brew pyenv-virtualenv
 brew pyenv
+brew pyenv-virtualenv
 brew pygobject
 brew pygobject3
 brew pygtk
 brew pygtksourceview
 brew python
 brew python3
+brew qemu
 brew qt
 brew qt5
 brew rarian
+brew rbenv
 brew rbenv-binstubs
+brew rbenv-bundler
 brew rbenv-default-gems
 brew rbenv-gemset
-brew rbenv
 brew readline
 brew redpen
-brew ruby-build
 brew ruby
+brew ruby-build
+brew schroedinger
 brew scons
 brew sdl
+brew sdl2
 brew shared-mime-info
 brew shtool
 brew smartmontools
@@ -252,15 +271,21 @@ brew sphinx-doc
 brew sqlite
 brew subversion
 brew swig
+brew tbb
+brew terminal-notifier
 brew tesseract
 brew texi2html
+brew the_silver_searcher
 brew theora
 brew tig
+brew tldr
 brew tmux
 brew tree
+brew unrar
 brew utf8proc
 brew valgrind
 brew vim
+brew vimpager
 brew webp
 brew wget
 brew x264
@@ -270,22 +295,6 @@ brew xz
 brew yasm
 brew zeromq
 brew zsh
-brew giflib
-brew glib
-brew hub
-brew jasper
-brew libgpg-error
-brew mpfr
-brew opencore-amr
-brew openexr
-brew rbenv-bundler
-brew schroedinger
-brew tbb
-brew terminal-notifier
-brew the_silver_searcher
-brew tldr
-brew unrar
-brew vimpager
 
 tap homebrew/dupes
 brew apple-gcc42
@@ -317,32 +326,6 @@ tap rcmdnk/file
 brew brew-file
 
 tap sanemat/font
-brew ricty
+brew ricty --powerline --vim-powerline
 
 tap tldr-pages/tldr
-
-# Other Homebrew packages
-brew heroku-toolbelt
-
-# App Store applications
-appstore 460883588 ATOKPad
-appstore 1037126344 Apple Configurator 2
-appstore 549083868 Display Menu
-appstore 931202332 MiniPlayer
-appstore 416285394 MiniUsage
-appstore 409203825 Numbers
-appstore 928941247 OTP Manager
-appstore 409201541 Pages
-appstore 894540810 PhotoX
-appstore 568494494 Pocket
-appstore 907364780 Pomodoro One
-appstore 467103113 Relax Melodies
-appstore 1086818840 Rocket.Chat+
-appstore 803453959 Slack
-appstore 414298354 ToyViewer
-appstore 899361067 ViewPic
-appstore 733144646 XPS-PDF
-appstore 733144613 XPS-Reader
-appstore 849734925 XPS-to-PDF Lite
-appstore 497799835 Xcode
-appstore 408981434 iMovie
