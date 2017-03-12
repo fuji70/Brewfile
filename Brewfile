@@ -15,14 +15,13 @@ cask atom
 cask betterzipql
 cask ccleaner
 cask cheatsheet
-cask clipmenu
+cask clipy
 cask coteditor
 cask dropbox
 cask emacs
 cask flux
 cask freemind
 cask google-chrome
-cask google-cloud-sdk
 cask haroopad
 cask haskell-platform
 cask horndis
@@ -35,6 +34,7 @@ cask jdiskreport
 cask kdiff3
 cask launchrocket
 cask lingon-x
+cask meld
 cask menumeters
 cask mp3gain-express
 cask mysqlworkbench
@@ -51,7 +51,9 @@ cask rstudio
 cask shiftit
 cask skitch
 cask sourcetree
+cask sqlitebrowser
 cask the-unarchiver
+cask tiny
 cask vagrant
 cask virtualbox
 cask vlc
@@ -82,9 +84,12 @@ brew apache-spark
 brew apr
 brew apr-util
 brew asciidoc
+brew asio
 brew atk
+brew augeas
 brew autoconf
 brew automake
+brew aws-shell
 brew awscli
 brew bazel
 brew bison
@@ -104,7 +109,10 @@ brew cppunit
 brew curl
 brew curlpp
 brew czmq
+brew dirmngr
+brew ditaa
 brew docbook
+brew docker-clean
 brew dos2unix
 brew doxygen
 brew eigen
@@ -119,10 +127,12 @@ brew fribidi
 brew fswatch
 brew gawk
 brew gcc
+brew gd
 brew gdb
 brew gdbm
 brew gdk-pixbuf
 brew gettext
+brew gflags
 brew ghq
 brew giflib
 brew git
@@ -132,14 +142,19 @@ brew git-secrets
 brew gitbucket
 brew glib
 brew global
+brew glog
 brew gmp
+brew gmp@4
 brew gnome-icon-theme
 brew gnu-sed
+brew gnu-time
 brew gnutls
 brew go
 brew gobject-introspection
+brew gpg-agent
 brew gradle
 brew graphite2
+brew graphviz
 brew grip
 brew gsettings-desktop-schemas
 brew gtk+
@@ -159,13 +174,16 @@ brew imagemagick
 brew imlib2
 brew intltool
 brew isl
+brew isl@0.11
+brew isl@0.12
 brew jasper
 brew jenkins
+brew jo
 brew jpeg
 brew jq
 brew jsonpp
 brew lame
-brew lastpass-cli --with-pinentry --with-doc
+brew lastpass-cli --with-pinentry
 brew leptonica
 brew libarchive
 brew libass
@@ -177,13 +195,18 @@ brew libgcrypt
 brew libgpg-error
 brew libksba
 brew liblo
+brew libmagic
 brew libmpc
+brew libmpc@0.8
 brew libogg
 brew libpng
 brew libsodium
 brew libtasn1
 brew libtiff
 brew libtool
+brew libunistring
+brew libusb
+brew libusb-compat
 brew libvo-aacenc
 brew libvorbis
 brew libvpx
@@ -193,10 +216,12 @@ brew libxslt
 brew libyaml
 brew libzip
 brew little-cms2
+brew lnav
 brew lsyncd
 brew lua
 brew lv
 brew lynx
+brew lz4
 brew m-cli
 brew makedepend
 brew maven
@@ -204,12 +229,15 @@ brew md5sha1sum
 brew mercurial
 brew mp3gain
 brew mpfr
+brew mpfr@2
 brew mycli
 brew mysql
 brew nettle
 brew nkf
+brew nmap
 brew node
 brew nodebrew
+brew numpy
 brew oniguruma
 brew opencore-amr
 brew openexr
@@ -217,22 +245,27 @@ brew openjpeg
 brew openssl
 brew opus
 brew orc
+brew osquery
+brew p11-kit
 brew pango
 brew parallel
 brew pcre
 brew peco
+brew perl
 brew perl-build
 brew phantomjs
 brew pidcat
 brew pinentry
 brew pixman
 brew pkg-config
+brew plantuml
 brew plenv
 brew pmd
 brew pngquant
 brew portaudio
 brew postgresql
 brew progress
+brew pth
 brew pv
 brew pwgen
 brew py2cairo
@@ -245,8 +278,8 @@ brew pygtksourceview
 brew python
 brew python3
 brew qemu
-brew qt
 brew qt5
+brew qt@5.5
 brew rarian
 brew rbenv
 brew rbenv-binstubs
@@ -255,6 +288,10 @@ brew rbenv-default-gems
 brew rbenv-gemset
 brew readline
 brew redpen
+brew rename
+brew repo
+brew ripgrep
+brew rocksdb
 brew ruby
 brew ruby-build
 brew schroedinger
@@ -263,7 +300,9 @@ brew sdl
 brew sdl2
 brew shared-mime-info
 brew shtool
+brew sleuthkit
 brew smartmontools
+brew snappy
 brew socat
 brew source-highlight
 brew speex
@@ -286,12 +325,14 @@ brew utf8proc
 brew valgrind
 brew vim
 brew vimpager
+brew watch
 brew webp
 brew wget
 brew x264
 brew xctool
 brew xvid
 brew xz
+brew yara
 brew yasm
 brew zeromq
 brew zsh
@@ -304,28 +345,25 @@ brew rsync
 brew unzip
 
 tap homebrew/python
-brew numpy
 
 tap homebrew/science
 brew opencv
+brew opencv3
+brew r
 
 tap homebrew/services
 
 tap homebrew/versions
-brew cloog018
-brew gcc48
-brew gcc49
-brew gmp4
-brew isl011
-brew libmpc08
-brew mpfr2
 
 tap homebrew/x11
+
+tap railwaycat/emacsmacport
+cask emacs-mac
 
 tap rcmdnk/file
 brew brew-file
 
 tap sanemat/font
-brew ricty --powerline --vim-powerline
+brew ricty --with-powerline
 
 tap tldr-pages/tldr
