@@ -11,6 +11,7 @@ brew apache-zeppelin
 brew apple-gcc42
 brew apr
 brew apr-util
+brew arp-scan
 brew asciidoc
 brew asio
 brew atk
@@ -19,6 +20,8 @@ brew autoconf
 brew automake
 brew aws-shell
 brew awscli
+brew bash
+brew bats
 brew bazel
 brew bear
 brew bison
@@ -43,7 +46,6 @@ brew ctop
 brew curl
 brew curlpp
 brew czmq
-brew dirmngr
 brew ditaa
 brew docbook
 brew docker-clean
@@ -58,6 +60,7 @@ brew fontconfig
 brew fontforge
 brew freetype
 brew fribidi
+brew fselect
 brew fswatch
 brew gawk
 brew gcc
@@ -79,13 +82,12 @@ brew glib
 brew global
 brew glog
 brew gmp
-brew gnu-sed
+brew gnu-sed --with-default-names
 brew gnu-time
 brew gnutls
 brew go
 brew gobject-introspection
 brew gperftools
-brew gpg-agent
 brew gradle
 brew graphite2
 brew graphviz
@@ -119,6 +121,7 @@ brew jsonpp
 brew lame
 brew lapack
 brew lastpass-cli --with-pinentry
+brew lcov
 brew lepton
 brew leptonica
 brew leveldb
@@ -136,6 +139,7 @@ brew liblo
 brew libmagic
 brew libmpc
 brew libogg
+brew libpcap
 brew libpng
 brew libsodium
 brew libtasn1
@@ -170,6 +174,7 @@ brew mercurial
 brew most
 brew mp3gain
 brew mpfr
+brew mtr
 brew mycli
 brew mysql
 brew ncdu
@@ -200,7 +205,6 @@ brew pcre
 brew peco
 brew perl
 brew perl-build
-brew phantomjs
 brew pidcat
 brew pinentry
 brew pixman
@@ -320,65 +324,13 @@ tap homebrew/versions
 
 tap homebrew/x11
 
+tap argon/mas
+
 tap caskroom/cask
-cask accessmenubarapps
-cask alfred
-cask appcleaner
-cask ccleaner
-cask clipy
-cask coteditor
-cask dropbox
-cask flux
-cask freemind
-cask google-chrome
-cask haroopad
-cask haskell-platform
-cask horndis
-cask insomnia
-cask insomniax
-cask iterm2
-cask java
-cask jdiskreport
-cask kdiff3
-cask launchrocket
-cask lingon-x
-cask meld
-cask menumeters
-cask metabase-app
-cask mp3gain-express
-cask mysqlworkbench
-cask openconnect-gui
-cask osxfuse
-cask p4merge
-cask qlmarkdown
-cask qlstephen
-cask quicklook-csv
-cask quicklook-json
-cask r-app
-cask rstudio
-cask shiftit
-cask skitch
-cask sourcetree
-cask sqlectron
-cask the-unarchiver
-cask tiny
-cask vagrant
-cask virtualbox
-cask vlc
-cask wireshark
-cask xquartz
 
 tap caskroom/fonts
-cask font-fira-code
-cask font-genshingothic
-cask font-noto-sans
-cask font-noto-serif
-cask font-roboto
 
 tap caskroom/versions
-cask java8
-
-tap argon/mas
 
 tap jez/formulae
 brew git-heatmap
@@ -402,24 +354,80 @@ tap tldr-pages/tldr
 
 # Other Homebrew packages
 brew celt
+brew dirmngr
 brew gmp@4
 brew gnome-icon-theme
 brew gpg
+brew gpg-agent
 brew htop-osx
 brew isl@0.11
 brew isl@0.12
 brew libmpc@0.8
 brew mpfr@2
 brew opencv3
+brew phantomjs
 brew powerline
 brew pyenv-pip-rehash
 brew python3
 brew wkhtmltopdf
 
 # Other Cask applications
+cask accessmenubarapps
+cask alfred
+cask android-platform-tools
+cask appcleaner
 cask asepsis
 cask betterzipql
+cask ccleaner
+cask clipy
+cask coteditor
+cask dropbox
+cask flux
+cask font-fira-code
+cask font-genshingothic
+cask font-noto-sans
+cask font-noto-serif
+cask font-roboto
+cask freemind
+cask google-chrome
+cask haroopad
+cask haskell-platform
+cask horndis
 cask hosts
+cask insomnia
+cask insomniax
+cask iterm2
+cask java
 cask java7
+cask java8
+cask jdiskreport
+cask kdiff3
+cask launchrocket
+cask lingon-x
+cask meld
+cask menumeters
+cask metabase-app
+cask mp3gain-express
+cask mysqlworkbench
+cask openconnect-gui
+cask osxfuse
+cask p4merge
 cask picasa
+cask qlmarkdown
+cask qlstephen
+cask quicklook-csv
+cask quicklook-json
+cask r-app
+cask rstudio
+cask shiftit
+cask skitch
+cask sourcetree
+cask sqlectron
 cask sqlitebrowser
+cask the-unarchiver
+cask tiny
+cask vagrant
+cask virtualbox
+cask vlc
+cask wireshark
+cask xquartz
