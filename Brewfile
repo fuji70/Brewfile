@@ -3,12 +3,12 @@
 
 tap homebrew/core
 brew ack
+brew afflib
 brew ansible
 brew ant
 brew antlr
+brew aom
 brew apache-spark
-brew apache-zeppelin
-brew apple-gcc42
 brew apr
 brew apr-util
 brew arp-scan
@@ -30,11 +30,13 @@ brew boost-python
 brew cairo
 brew ccache
 brew ccze
+brew ceres-solver
 brew cheat
 brew clang-format
 brew cloc
 brew cloog
 brew cmake
+brew colordiff
 brew connect
 brew convmv
 brew coreutils
@@ -42,6 +44,7 @@ brew corkscrew
 brew cpanminus
 brew cppcheck
 brew cppunit
+brew ctags
 brew ctop
 brew curl
 brew curlpp
@@ -55,10 +58,12 @@ brew eigen
 brew expect
 brew faac
 brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg --with-libvorbis --with-libvpx --with-theora
+brew ffmpeg
+brew flac
 brew fontconfig
 brew fontforge
 brew freetype
+brew frei0r
 brew fribidi
 brew fselect
 brew fswatch
@@ -74,7 +79,6 @@ brew gflags
 brew ghq
 brew giflib
 brew git
-brew git-flow
 brew git-lfs
 brew git-secrets
 brew gitbucket
@@ -82,7 +86,7 @@ brew glib
 brew global
 brew glog
 brew gmp
-brew gnu-sed --with-default-names
+brew gnu-sed
 brew gnu-time
 brew gnutls
 brew go
@@ -98,6 +102,7 @@ brew gtk+3
 brew gtk-mac-integration
 brew gtksourceview
 brew gtksourceview3
+brew gts
 brew harfbuzz
 brew hicolor-icon-theme
 brew httpie
@@ -109,6 +114,7 @@ brew imagemagick
 brew imlib2
 brew intltool
 brew isl
+brew jansson
 brew jasper
 brew jenkins
 brew jenv
@@ -120,7 +126,7 @@ brew jsoncpp
 brew jsonpp
 brew lame
 brew lapack
-brew lastpass-cli --with-pinentry
+brew lastpass-cli
 brew lcov
 brew lepton
 brew leptonica
@@ -128,26 +134,42 @@ brew leveldb
 brew libarchive
 brew libass
 brew libassuan
+brew libbluray
+brew libde265
 brew libepoxy
 brew libevent
+brew libewf
 brew libffi
 brew libgcrypt
+brew libglade
 brew libgpg-error
+brew libheif
 brew libiconv
+brew libidn2
 brew libksba
 brew liblo
 brew libmagic
 brew libmpc
 brew libogg
+brew libomp
 brew libpcap
 brew libpng
+brew libpq
+brew librdkafka
+brew libsamplerate
+brew libsndfile
 brew libsodium
+brew libsoxr
+brew libspiro
+brew libssh
 brew libtasn1
 brew libtiff
 brew libtool
+brew libuninameslist
 brew libunistring
 brew libusb
 brew libusb-compat
+brew libvidstab
 brew libvo-aacenc
 brew libvorbis
 brew libvpx
@@ -157,28 +179,34 @@ brew libxslt
 brew libyaml
 brew libzip
 brew little-cms2
-brew llvm --with-clang
+brew lldpd
+brew llvm
 brew lnav
 brew lsyncd
 brew lua
 brew lv
 brew lynx
 brew lz4
+brew lzlib
+brew lzo
 brew m-cli
 brew mackup
 brew makedepend
 brew mas
 brew maven
-brew md5sha1sum
 brew mercurial
+brew metis
 brew most
 brew mp3gain
 brew mpfr
+brew mpg123
 brew mtr
 brew mycli
 brew mysql
 brew ncdu
+brew ncurses
 brew nethogs
+brew netpbm
 brew nettle
 brew ninja
 brew nkf
@@ -187,12 +215,11 @@ brew nodebrew
 brew numpy
 brew oniguruma
 brew openblas
-brew openconnect --with-stoken
+brew openconnect
 brew opencore-amr
 brew opencv
 brew openexr
 brew openjpeg
-brew openssl
 brew openssl@1.1
 brew opus
 brew orc
@@ -202,11 +229,13 @@ brew pango
 brew parallel
 brew parquet-tools
 brew pcre
+brew pcre2
 brew peco
 brew perl
 brew perl-build
 brew pidcat
 brew pinentry
+brew pipenv
 brew pixman
 brew pkg-config
 brew plantuml
@@ -217,20 +246,23 @@ brew portaudio
 brew postgresql
 brew premake
 brew progress
+brew protobuf@3.7
 brew pth
 brew pv
 brew pwgen
 brew py2cairo
+brew py3cairo
 brew pyenv
-brew pyenv-virtualenv
 brew pygobject
 brew pygobject3
 brew pygtk
 brew pygtksourceview
 brew python
 brew python@2
+brew python@3.8
 brew qemu
 brew r
+brew rapidjson
 brew rarian
 brew rbenv
 brew rbenv-binstubs
@@ -244,7 +276,8 @@ brew repo
 brew ripgrep
 brew rocksdb
 brew rsync
-brew rtags
+brew rtmpdump
+brew rubberband
 brew ruby
 brew ruby-build
 brew s-lang
@@ -267,12 +300,13 @@ brew socat
 brew source-highlight
 brew speedtest-cli
 brew speex
-brew sphinx-doc
 brew sqlite
+brew ssdeep
 brew ssh-copy-id
 brew sshrc
 brew stoken
 brew subversion
+brew suite-sparse
 brew swig
 brew tbb
 brew terminal-notifier
@@ -281,21 +315,24 @@ brew texi2html
 brew textql
 brew the_silver_searcher
 brew theora
+brew thrift
 brew tig
 brew tldr
 brew tmux
 brew tree
+brew unbound
 brew unison
 brew unrar
 brew unzip
 brew utf8proc
-brew valgrind
+brew vde
 brew vim
 brew vimpager
 brew watch
 brew webp
 brew wget
 brew x264
+brew x265
 brew xctool
 brew xml2
 brew xsv
@@ -305,58 +342,38 @@ brew yara
 brew yasm
 brew zeromq
 brew zsh
+brew zstd
 
-tap homebrew/binary
+tap homebrew/cask-fonts
+cask font-fira-code
+cask font-noto-sans
+cask font-roboto
 
-tap homebrew/boneyard
-
-tap homebrew/dupes
-
-tap homebrew/python
-
-tap homebrew/science
-
-tap homebrew/science
-
-tap homebrew/services
-
-tap homebrew/versions
-
-tap homebrew/x11
+tap homebrew/cask-versions
+cask adoptopenjdk8
 
 tap homebrew/cask
 cask accessmenubarapps
 cask android-platform-tools
-cask ccleaner
+cask betterzip
+cask cheatsheet
 cask coteditor
 cask flux
 cask freemind
-cask haroopad
-cask insomnia
+cask horndis
 cask iterm2
 cask jdiskreport
-cask launchrocket
 cask meld
-cask metabase-app
-cask mysqlworkbench
+cask mp3gain-express
 cask osxfuse
-cask qlmarkdown
-cask quicklook-csv
-cask r-app
+cask qlstephen
+cask quicklook-json
 cask shiftit
-cask sourcetree
-cask the-unarchiver
+cask sqlectron
 cask vagrant
-cask vlc
 cask xquartz
 
 tap argon/mas
-
-tap caskroom/cask
-
-tap caskroom/fonts
-
-tap caskroom/versions
 
 tap jez/formulae
 brew git-heatmap
@@ -368,8 +385,6 @@ tap railwaycat/emacsmacport
 brew emacs-mac --with-modern-icon
 cask emacs-mac
 
-tap railwaycat/emacsmacport
-
 tap rcmdnk/file
 brew brew-file
 
@@ -378,55 +393,23 @@ brew ricty --with-powerline
 
 tap tldr-pages/tldr
 
-# Other Homebrew packages
-brew celt
-brew dirmngr
-brew gmp@4
-brew gnome-icon-theme
-brew gpg
-brew gpg-agent
-brew htop-osx
-brew isl@0.11
-brew isl@0.12
-brew opencv3
-brew phantomjs
-brew powerline
-brew pyenv-pip-rehash
-brew python3
-brew wkhtmltopdf
-
 # Other Cask applications
 cask alfred
 cask appcleaner
-cask asepsis
-cask betterzipql
+cask ccleaner
 cask clipy
 cask dropbox
-cask font-fira-code
 cask font-genshingothic
-cask font-noto-sans
 cask font-noto-serif
-cask font-roboto
-cask google-chrome
-cask horndis
-cask hosts
-cask insomniax
+cask haroopad
+cask insomnia
 cask java
-cask java7
-cask java8
-cask kdiff3
-cask lingon-x
+cask launchrocket
 cask menumeters
-cask mp3gain-express
 cask openconnect-gui
-cask p4merge
-cask picasa
-cask qlstephen
-cask quicklook-json
+cask qlmarkdown
+cask quicklook-csv
 cask rstudio
 cask skitch
-cask sqlectron
-cask sqlitebrowser
-cask tiny
-cask virtualbox
-cask wireshark
+cask the-unarchiver
+cask vlc
