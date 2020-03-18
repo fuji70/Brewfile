@@ -124,6 +124,7 @@ brew jpeg
 brew jq
 brew jsoncpp
 brew jsonpp
+brew krb5
 brew lame
 brew lapack
 brew lastpass-cli
@@ -134,6 +135,7 @@ brew leveldb
 brew libarchive
 brew libass
 brew libassuan
+brew libb2
 brew libbluray
 brew libde265
 brew libepoxy
@@ -219,6 +221,7 @@ brew openconnect
 brew opencore-amr
 brew opencv
 brew openexr
+brew openjdk
 brew openjpeg
 brew openssl@1.1
 brew opus
@@ -246,6 +249,7 @@ brew portaudio
 brew postgresql
 brew premake
 brew progress
+brew protobuf
 brew protobuf@3.7
 brew pth
 brew pv
@@ -253,12 +257,8 @@ brew pwgen
 brew py2cairo
 brew py3cairo
 brew pyenv
-brew pygobject
 brew pygobject3
-brew pygtk
-brew pygtksourceview
 brew python
-brew python@2
 brew python@3.8
 brew qemu
 brew r
@@ -303,7 +303,6 @@ brew speex
 brew sqlite
 brew ssdeep
 brew ssh-copy-id
-brew sshrc
 brew stoken
 brew subversion
 brew suite-sparse
@@ -392,6 +391,13 @@ tap sanemat/font
 brew ricty --with-powerline
 
 tap tldr-pages/tldr
+
+# Other Homebrew packages
+brew pygobject
+brew pygtk
+brew pygtksourceview
+brew python@2
+brew sshrc
 
 # Other Cask applications
 cask alfred
