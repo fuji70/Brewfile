@@ -21,12 +21,10 @@ brew automake
 brew aws-shell
 brew awscli
 brew bash
-brew bats
 brew bazel
 brew bear
 brew bison
 brew boost
-brew boost-python
 brew cairo
 brew ccache
 brew ccze
@@ -109,8 +107,6 @@ brew httpie
 brew httpstat
 brew hub
 brew icu4c
-brew ilmbase
-brew imagemagick
 brew imlib2
 brew intltool
 brew isl
@@ -203,7 +199,6 @@ brew mp3gain
 brew mpfr
 brew mpg123
 brew mtr
-brew mycli
 brew mysql
 brew ncdu
 brew ncurses
@@ -214,13 +209,11 @@ brew ninja
 brew nkf
 brew nmap
 brew nodebrew
-brew numpy
 brew oniguruma
 brew openblas
 brew openconnect
 brew opencore-amr
 brew opencv
-brew openexr
 brew openjdk
 brew openjpeg
 brew openssl@1.1
@@ -365,7 +358,6 @@ cask jdiskreport
 cask meld
 cask mp3gain-express
 cask osxfuse
-cask qlstephen
 cask quicklook-json
 cask shiftit
 cask sqlectron
@@ -382,7 +374,7 @@ brew ghkw
 
 tap railwaycat/emacsmacport
 brew emacs-mac --with-modern-icon
-cask emacs-mac
+# cask emacs-mac
 
 tap rcmdnk/file
 brew brew-file
