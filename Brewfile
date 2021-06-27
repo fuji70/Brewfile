@@ -484,32 +484,3 @@ tap tldr-pages/tldr
 
 # Other Cask applications
 cask java
-
-# App Store applications
-appstore 1037126344 Apple Configurator 2 (2.12.1)
-appstore 460883588 ATOK Pad (2.0.7)
-appstore 549083868 Display Menu (2.2.3)
-appstore 503039729 Fotor Photo Editor (3.8.6)
-appstore 682658836 GarageBand (10.3.5)
-appstore 408981434 iMovie (10.1.14)
-appstore 409183694 Keynote (10.1)
-appstore 472226235 LanScan (6.5.8)
-appstore 926036361 LastPass (4.4.0)
-appstore 539883307 LINE (7.0.2)
-appstore 0 macOS Big Surインストール (16.6.01)
-appstore 1295203466 Microsoft Remote Desktop (10.6.7)
-appstore 931202332 MiniPlayer (2.0)
-appstore 928941247 OTP Manager (1.5.0)
-appstore 894540810 PhotoX (2.1.1)
-appstore 568494494 Pocket (1.8.6)
-appstore 467103113 Relax Melodies (6.0.1)
-appstore 1086818840 Rocket.Chat (3.0.3)
-appstore 803453959 Slack (4.17.0)
-appstore 412131150 STAMPTOOLS (1.7)
-appstore 907364780 Tomato One (1.0.6)
-appstore 414298354 ToyViewer (5.6.0)
-appstore 899361067 ViewPic (1.2.0)
-appstore 497799835 Xcode (11.3.1)
-appstore 733144613 XPS-Reader (1.9.1)
-appstore 849734925 XPS-to-PDF Lite (3.0)
-appstore 1007099639 ボイスメモ 〇 (6.1.1)
