@@ -471,5 +471,3 @@ brew ricty --with-powerline
 
 tap tldr-pages/tldr
 
-# Other Cask applications
-cask java
