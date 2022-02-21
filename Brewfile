@@ -407,7 +407,6 @@ tap homebrew/bundle
 
 tap homebrew/cask-fonts
 cask font-fira-code
-cask font-genshingothic
 cask font-noto-sans
 cask font-noto-serif
 cask font-roboto
@@ -424,7 +423,6 @@ cask android-platform-tools
 cask appcleaner
 cask betterzip
 cask ccleaner
-cask cheatsheet
 cask clipy
 cask coteditor
 cask dropbox
@@ -435,22 +433,16 @@ cask horndis
 cask insomnia
 cask iterm2
 cask jdiskreport
-cask launchrocket
-cask meld
 cask menumeters
-cask mp3gain-express
 cask openconnect-gui
 cask osxfuse
 cask qlmarkdown
 cask qlstephen
 cask quicklook-csv
 cask quicklook-json
-cask rstudio
-cask shiftit
 cask skitch
 cask sqlectron
 cask the-unarchiver
-cask vagrant
 cask vlc
 cask xquartz
 
