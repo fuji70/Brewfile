@@ -409,7 +409,6 @@ tap homebrew/cask-fonts
 cask font-fira-code
 cask font-noto-sans
 cask font-noto-serif
-cask font-roboto
 
 tap homebrew/cask-versions
 cask adoptopenjdk8
