@@ -428,7 +428,6 @@ cask dropbox
 cask flux
 cask freemind
 cask haroopad
-cask horndis
 cask insomnia
 cask iterm2
 cask jdiskreport
