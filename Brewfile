@@ -433,7 +433,6 @@ cask iterm2
 cask jdiskreport
 cask menumeters
 cask openconnect-gui
-cask osxfuse
 cask qlmarkdown
 cask qlstephen
 cask quicklook-csv
