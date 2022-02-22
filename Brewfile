@@ -147,7 +147,6 @@ brew lame
 brew lapack
 brew lastpass-cli
 brew lcov
-brew lepton
 brew leptonica
 brew leveldb
 brew libarchive
