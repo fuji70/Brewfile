@@ -32,15 +32,18 @@ brew bison
 brew boost
 brew brotli
 brew c-ares
+brew ca-certificates
 brew cairo
 brew ccache
 brew ccze
 brew ceres-solver
 brew cheat
+brew cjson
 brew clang-format
 brew cloc
 brew cloog
 brew cmake
+brew cmocka
 brew colordiff
 brew connect
 brew convmv
@@ -81,6 +84,7 @@ brew fswatch
 brew gawk
 brew gcc
 brew gd
+brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew gflags
@@ -123,13 +127,17 @@ brew gzip
 brew harfbuzz
 brew hdf5
 brew hicolor-icon-theme
+brew hiredis
 brew httpie
 brew httpstat
 brew hub
+brew hunspell
 brew icu4c
+brew imath
 brew imlib2
 brew intltool
 brew isl
+brew isl@0.18
 brew jansson
 brew jasper
 brew jbig2dec
@@ -139,6 +147,7 @@ brew jenv
 brew jhead
 brew jo
 brew jpeg
+brew jpeg-xl
 brew jq
 brew jsoncpp
 brew jsonpp
@@ -152,14 +161,17 @@ brew leveldb
 brew libarchive
 brew libass
 brew libassuan
+brew libavif
 brew libb2
 brew libbluray
+brew libcbor
 brew libde265
 brew libepoxy
 brew libev
 brew libevent
 brew libewf
 brew libffi
+brew libfido2
 brew libgcrypt
 brew libglade
 brew libgpg-error
@@ -173,6 +185,7 @@ brew liblqr
 brew libmagic
 brew libmetalink
 brew libmpc
+brew libnghttp2
 brew libogg
 brew libomp
 brew libpcap
@@ -181,6 +194,7 @@ brew libpq
 brew libproxy
 brew libpthread-stubs
 brew librdkafka
+brew librist
 brew librsvg
 brew libsamplerate
 brew libslirp
@@ -197,7 +211,9 @@ brew libuninameslist
 brew libunistring
 brew libusb
 brew libusb-compat
+brew libuv
 brew libvidstab
+brew libvmaf
 brew libvo-aacenc
 brew libvorbis
 brew libvpx
@@ -227,13 +243,17 @@ brew lzo
 brew m-cli
 brew m4
 brew mackup
+brew macos-term-size
 brew makedepend
 brew mas
 brew maven
+brew mbedtls
+brew md4c
 brew mecab
 brew mecab-ipadic
 brew mercurial
 brew metis
+brew mongosh
 brew most
 brew mp3gain
 brew mpdecimal
@@ -253,11 +273,13 @@ brew nkf
 brew nlohmann-json
 brew nmap
 brew node-build
+brew node@14
 brew nodenv
 brew oniguruma
 brew openblas
 brew openconnect
 brew opencore-amr
+brew openexr
 brew openjdk
 brew openjdk@11
 brew openjpeg
@@ -298,6 +320,7 @@ brew pyenv-virtualenv
 brew pyenv-virtualenvwrapper
 brew pygobject3
 brew pyqt
+brew python@3.10
 brew python@3.8
 brew python@3.9
 brew qemu
@@ -368,6 +391,7 @@ brew the_silver_searcher
 brew theora
 brew thrift
 brew tig
+brew tinyxml2
 brew tldr
 brew tmux
 brew tree
@@ -467,3 +491,9 @@ brew ricty --with-powerline
 
 tap tldr-pages/tldr
 
+# App Store applications
+appstore 682658836   GarageBand  (10.4.4)
+appstore 408981434   iMovie      (10.3)
+appstore 409183694   Keynote     (11.2)
+appstore 409203825   Numbers     (11.2)
+appstore 409201541   Pages       (11.2)
