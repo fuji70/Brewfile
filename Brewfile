@@ -96,7 +96,6 @@ brew gitbucket
 brew gl2ps
 brew glew
 brew glib
-brew global
 brew glog
 brew gmp
 brew gnu-getopt
