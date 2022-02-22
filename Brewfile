@@ -81,8 +81,6 @@ brew fswatch
 brew gawk
 brew gcc
 brew gd
-brew gdb
-brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew gflags
