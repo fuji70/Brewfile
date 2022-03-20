@@ -184,6 +184,7 @@ brew liblo
 brew liblqr
 brew libmagic
 brew libmetalink
+brew libmng
 brew libmpc
 brew libnghttp2
 brew libogg
@@ -230,7 +231,7 @@ brew libyaml
 brew libzip
 brew little-cms2
 brew lldpd
-brew llvm
+brew llvm@11
 brew lnav
 brew lsyncd
 brew lua
@@ -315,9 +316,6 @@ brew pugixml
 brew pv
 brew pwgen
 brew py3cairo
-brew pyenv
-brew pyenv-virtualenv
-brew pyenv-virtualenvwrapper
 brew pygobject3
 brew pyqt
 brew python@3.10
@@ -417,6 +415,7 @@ brew xxhash
 brew xz
 brew yara
 brew yasm
+brew yq
 brew zeromq
 brew zimg
 brew zsh
@@ -444,9 +443,11 @@ cask betterzip
 cask ccleaner
 cask clipy
 cask coteditor
+cask dbeaver-community
 cask dropbox
 cask flux
 cask freemind
+cask hammerspoon
 cask haroopad
 cask insomnia
 cask iterm2
@@ -492,8 +493,13 @@ brew ricty --with-powerline
 tap tldr-pages/tldr
 
 # App Store applications
-appstore 682658836   GarageBand  (10.4.4)
-appstore 408981434   iMovie      (10.3)
-appstore 409183694   Keynote     (11.2)
-appstore 409203825   Numbers     (11.2)
-appstore 409201541   Pages       (11.2)
+appstore 937984704   Amphetamine   (5.2.2)
+appstore 460883588   ATOK Pad      (2.0.7)
+appstore 549083868   Display Menu  (2.2.4)
+appstore 682658836   GarageBand    (10.4.6)
+appstore 408981434   iMovie        (10.3.1)
+appstore 409183694   Keynote       (11.2)
+appstore 405399194   Kindle        (1.34.1)
+appstore 409203825   Numbers       (11.2)
+appstore 409201541   Pages         (11.2)
+appstore 803453959   Slack         (4.23.0)
