@@ -275,7 +275,6 @@ brew nlohmann-json
 brew nmap
 brew node-build
 brew node@14
-brew nodenv
 brew oniguruma
 brew openblas
 brew openconnect
@@ -377,7 +376,6 @@ brew stoken
 brew subversion
 brew suite-sparse
 brew swig
-brew szip
 brew tbb
 brew tcl-tk
 brew terminal-notifier
@@ -418,7 +416,6 @@ brew yasm
 brew yq
 brew zeromq
 brew zimg
-brew zsh
 brew zsh-completions
 brew zstd
 
@@ -435,7 +432,6 @@ cask adoptopenjdk8
 tap homebrew/services
 
 tap homebrew/cask
-cask accessmenubarapps
 cask alfred
 cask android-platform-tools
 cask appcleaner
@@ -446,20 +442,17 @@ cask coteditor
 cask dbeaver-community
 cask dropbox
 cask flux
-cask freemind
 cask hammerspoon
 cask haroopad
 cask insomnia
 cask iterm2
-cask jdiskreport
 cask menumeters
-cask openconnect-gui
 cask qlmarkdown
 cask qlstephen
 cask quicklook-csv
 cask quicklook-json
 cask skitch
-cask sqlectron
+cask sourcetree
 cask the-unarchiver
 cask vlc
 cask xquartz
@@ -492,14 +485,19 @@ brew ricty --with-powerline
 
 tap tldr-pages/tldr
 
+# Other Homebrew packages
+brew szip
+
 # App Store applications
-appstore 937984704   Amphetamine   (5.2.2)
-appstore 460883588   ATOK Pad      (2.0.7)
-appstore 549083868   Display Menu  (2.2.4)
-appstore 682658836   GarageBand    (10.4.6)
-appstore 408981434   iMovie        (10.3.1)
-appstore 409183694   Keynote       (11.2)
-appstore 405399194   Kindle        (1.34.1)
-appstore 409203825   Numbers       (11.2)
-appstore 409201541   Pages         (11.2)
-appstore 803453959   Slack         (4.23.0)
+appstore 937984704   Amphetamine         (5.2.2)
+appstore 1037126344  Apple Configurator  (2.15.1)
+appstore 460883588   ATOK Pad            (2.0.7)
+appstore 549083868   Display Menu        (2.2.4)
+appstore 682658836   GarageBand          (10.4.6)
+appstore 408981434   iMovie              (10.3.2)
+appstore 409183694   Keynote             (12.0)
+appstore 405399194   Kindle              (1.35.0)
+appstore 539883307   LINE                (7.8.1)
+appstore 409203825   Numbers             (12.0)
+appstore 409201541   Pages               (12.0)
+appstore 803453959   Slack               (4.25.0)
