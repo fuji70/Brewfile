@@ -158,6 +158,7 @@ brew lastpass-cli
 brew lcov
 brew leptonica
 brew leveldb
+brew libaec
 brew libarchive
 brew libass
 brew libassuan
@@ -275,6 +276,7 @@ brew nlohmann-json
 brew nmap
 brew node-build
 brew node@14
+brew node@16
 brew oniguruma
 brew openblas
 brew openconnect
@@ -433,6 +435,7 @@ tap homebrew/services
 
 tap homebrew/cask
 cask alfred
+cask alt-tab
 cask android-platform-tools
 cask appcleaner
 cask betterzip
@@ -500,4 +503,4 @@ appstore 405399194   Kindle              (1.35.0)
 appstore 539883307   LINE                (7.8.1)
 appstore 409203825   Numbers             (12.0)
 appstore 409201541   Pages               (12.0)
-appstore 803453959   Slack               (4.25.0)
+appstore 803453959   Slack               (4.26.1)
