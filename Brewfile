@@ -35,7 +35,6 @@ brew c-ares
 brew ca-certificates
 brew cairo
 brew ccache
-brew ccze
 brew ceres-solver
 brew cheat
 brew cjson
@@ -443,7 +442,6 @@ cask clipy
 cask coteditor
 cask dbeaver-community
 cask dropbox
-cask flux
 cask hammerspoon
 cask haroopad
 cask insomnia
@@ -495,11 +493,7 @@ appstore 937984704   Amphetamine         (5.2.2)
 appstore 1037126344  Apple Configurator  (2.15.1)
 appstore 460883588   ATOK Pad            (2.0.7)
 appstore 549083868   Display Menu        (2.2.4)
-appstore 682658836   GarageBand          (10.4.6)
 appstore 408981434   iMovie              (10.3.3)
 appstore 409183694   Keynote             (12.0)
 appstore 405399194   Kindle              (1.35.0)
-appstore 539883307   LINE                (7.8.1)
-appstore 409203825   Numbers             (12.0)
-appstore 409201541   Pages               (12.0)
 appstore 803453959   Slack               (4.26.1)
