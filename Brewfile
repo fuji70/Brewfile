@@ -485,9 +485,6 @@ brew ricty --with-powerline
 
 tap tldr-pages/tldr
 
-# Other Homebrew packages
-brew szip
-
 # App Store applications
 appstore 937984704   Amphetamine         (5.2.2)
 appstore 1037126344  Apple Configurator  (2.15.1)
