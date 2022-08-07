@@ -439,7 +439,6 @@ cask alt-tab
 cask android-platform-tools
 cask appcleaner
 cask betterzip
-cask ccleaner
 cask clipy
 cask coteditor
 cask dbeaver-community
@@ -497,7 +496,7 @@ appstore 1037126344  Apple Configurator  (2.15.1)
 appstore 460883588   ATOK Pad            (2.0.7)
 appstore 549083868   Display Menu        (2.2.4)
 appstore 682658836   GarageBand          (10.4.6)
-appstore 408981434   iMovie              (10.3.2)
+appstore 408981434   iMovie              (10.3.3)
 appstore 409183694   Keynote             (12.0)
 appstore 405399194   Kindle              (1.35.0)
 appstore 539883307   LINE                (7.8.1)
