@@ -422,7 +422,9 @@ brew yq
 brew zeromq
 brew zimg
 brew zlib
+brew zsh-autosuggestions
 brew zsh-completions
+brew zsh-syntax-highlighting
 brew zstd
 
 tap homebrew/bundle
@@ -447,7 +449,6 @@ cask clipy
 cask coteditor
 cask dbeaver-community
 cask dropbox
-cask flux
 cask hammerspoon
 cask haroopad
 cask insomnia
@@ -500,10 +501,13 @@ appstore 1545870783  Color Picker        (1.11.0)
 appstore 549083868   Display Menu        (2.2.4)
 appstore 503039729   Fotor Photo Editor  (4.4.3)
 appstore 682658836   GarageBand          (10.4.6)
+appstore 1444383602  GoodNotes           (5.9.30)
 appstore 408981434   iMovie              (10.3.3)
 appstore 409183694   Keynote             (12.1)
 appstore 405399194   Kindle              (1.37.0)
 appstore 539883307   LINE                (7.9.0)
+appstore 1564329434  Momentum            (2.6.17)
 appstore 409203825   Numbers             (12.1)
 appstore 409201541   Pages               (12.1)
+appstore 1477385213  Save to Pocket      (1.1)
 appstore 803453959   Slack               (4.27.154)
