@@ -34,7 +34,6 @@ brew brotli
 brew c-ares
 brew ca-certificates
 brew cairo
-brew ccache
 brew ceres-solver
 brew cheat
 brew cjson
@@ -71,6 +70,7 @@ brew expect
 brew faac
 brew fdk-aac
 brew ffmpeg
+brew ffmpeg@4
 brew flac
 brew fmt
 brew fontconfig
@@ -278,10 +278,12 @@ brew nmap
 brew node-build
 brew node@14
 brew node@16
+brew numpy
 brew oniguruma
 brew openblas
 brew openconnect
 brew opencore-amr
+brew opencv
 brew openexr
 brew openjdk
 brew openjdk@11
@@ -320,8 +322,10 @@ brew pugixml
 brew pv
 brew pwgen
 brew py3cairo
+brew pyenv
 brew pygobject3
 brew pyqt
+brew pyqt@5
 brew python@3.10
 brew python@3.8
 brew python@3.9
@@ -404,6 +408,7 @@ brew utf8proc
 brew vde
 brew vim
 brew vimpager
+brew vtk
 brew watch
 brew webp
 brew wget
@@ -422,9 +427,7 @@ brew yq
 brew zeromq
 brew zimg
 brew zlib
-brew zsh-autosuggestions
 brew zsh-completions
-brew zsh-syntax-highlighting
 brew zstd
 
 tap homebrew/bundle
@@ -449,6 +452,7 @@ cask clipy
 cask coteditor
 cask dbeaver-community
 cask dropbox
+cask flux
 cask hammerspoon
 cask haroopad
 cask insomnia
@@ -499,13 +503,13 @@ appstore 1037126344  Apple Configurator  (2.15.1)
 appstore 460883588   ATOK Pad            (2.0.7)
 appstore 1545870783  Color Picker        (1.11.0)
 appstore 549083868   Display Menu        (2.2.4)
-appstore 503039729   Fotor Photo Editor  (4.4.3)
+appstore 503039729   Fotor Photo Editor  (4.4.5)
 appstore 682658836   GarageBand          (10.4.6)
-appstore 1444383602  GoodNotes           (5.9.30)
-appstore 408981434   iMovie              (10.3.3)
+appstore 1444383602  GoodNotes           (5.9.32)
+appstore 408981434   iMovie              (10.3.4)
 appstore 409183694   Keynote             (12.1)
-appstore 405399194   Kindle              (1.37.0)
-appstore 539883307   LINE                (7.9.0)
+appstore 405399194   Kindle              (1.38.0)
+appstore 539883307   LINE                (7.10.2)
 appstore 1564329434  Momentum            (2.6.17)
 appstore 409203825   Numbers             (12.1)
 appstore 409201541   Pages               (12.1)
