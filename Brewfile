@@ -312,8 +312,8 @@ brew pmd
 brew pngquant
 brew popt
 brew portaudio
-brew postgresql
 brew postgresql@11
+brew postgresql@14
 brew progress
 brew protobuf
 brew protobuf-c
@@ -360,7 +360,7 @@ brew sbt
 brew scala
 brew schroedinger
 brew scons
-brew sdl
+brew sdl12-compat
 brew sdl2
 brew shared-mime-info
 brew shellcheck
@@ -503,15 +503,15 @@ appstore 1037126344  Apple Configurator  (2.15.1)
 appstore 460883588   ATOK Pad            (2.0.7)
 appstore 1545870783  Color Picker        (1.11.0)
 appstore 549083868   Display Menu        (2.2.4)
-appstore 503039729   Fotor Photo Editor  (4.4.5)
+appstore 503039729   Fotor Photo Editor  (4.4.9)
 appstore 682658836   GarageBand          (10.4.6)
-appstore 1444383602  GoodNotes           (5.9.32)
+appstore 1444383602  GoodNotes           (5.9.44)
 appstore 408981434   iMovie              (10.3.4)
 appstore 409183694   Keynote             (12.1)
-appstore 405399194   Kindle              (1.38.0)
-appstore 539883307   LINE                (7.10.2)
+appstore 405399194   Kindle              (1.39.0)
+appstore 539883307   LINE                (7.12.1)
 appstore 1564329434  Momentum            (2.6.17)
 appstore 409203825   Numbers             (12.1)
 appstore 409201541   Pages               (12.1)
 appstore 1477385213  Save to Pocket      (1.1)
-appstore 803453959   Slack               (4.27.154)
+appstore 803453959   Slack               (4.28.184)
