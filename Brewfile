@@ -79,7 +79,6 @@ brew ca-certificates
 brew cairo
 brew capstone
 brew ccache
-brew ccze
 brew ceres-solver
 brew cffi
 brew cheat
@@ -154,7 +153,6 @@ brew gnu-time
 brew gnutls
 brew go
 brew gobject-introspection
-brew goenv
 brew gperftools
 brew gradle
 brew graphite2
@@ -165,8 +163,6 @@ brew gsettings-desktop-schemas
 brew gtk+
 brew gtk+3
 brew gtk-mac-integration
-brew gtksourceview
-brew gtksourceview3
 brew gts
 brew guile
 brew gzip
@@ -177,7 +173,6 @@ brew highway
 brew hiredis
 brew httpie
 brew httpstat
-brew hub
 brew huggingface-cli
 brew hunspell
 brew icu4c
@@ -186,13 +181,11 @@ brew imath
 brew imlib2
 brew intltool
 brew isl
-brew isl@0.18
 brew jansson
 brew jasper
 brew jbig2dec
 brew jemalloc
 brew jenkins
-brew jenv
 brew jhead
 brew jo
 brew jpeg
@@ -224,7 +217,6 @@ brew libewf
 brew libffi
 brew libfido2
 brew libgcrypt
-brew libglade
 brew libgpg-error
 brew libheif
 brew libiconv
@@ -285,7 +277,6 @@ brew libyaml
 brew libzip
 brew little-cms2
 brew lldpd
-brew llvm@11
 brew lnav
 brew lsyncd
 brew lua
@@ -328,7 +319,6 @@ brew nlohmann-json
 brew nmap
 brew node
 brew node-build
-brew node@14
 brew node@16
 brew oniguruma
 brew openblas
@@ -379,24 +369,17 @@ brew pygments
 brew pygobject3
 brew pyqt
 brew python-typing-extensions
+brew python
 brew python@3.10
 brew python@3.11
-brew python@3.8
-brew python@3.9
 brew pyyaml
 brew qemu
 brew qt
-brew qt@5
 brew r
 brew rain
 brew rapidjson
 brew rarian
 brew rav1e
-brew rbenv
-brew rbenv-binstubs
-brew rbenv-bundler
-brew rbenv-default-gems
-brew rbenv-gemset
 brew re2
 brew readline
 brew redpen
@@ -449,7 +432,6 @@ brew terraform
 brew tesseract
 brew texi2html
 brew texinfo
-brew textql
 brew the_silver_searcher
 brew theora
 brew thrift
@@ -473,7 +455,6 @@ brew wget
 brew woff2
 brew x264
 brew x265
-brew xml2
 brew xmlto
 brew xorgproto
 brew xsv
@@ -503,7 +484,6 @@ cask dbeaver-community
 cask dropbox
 cask flux
 cask hammerspoon
-cask haroopad
 cask insomnia
 cask iterm2
 cask jdiskreport
@@ -538,4 +518,3 @@ appstore 409203825   Numbers             (13.1)
 appstore 409201541   Pages               (13.1)
 appstore 1477385213  Save to Pocket      (1.1)
 appstore 803453959   Slack               (4.33.73)
-appstore 497799835   Xcode               (14.2)
