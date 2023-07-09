@@ -454,6 +454,7 @@ brew the_silver_searcher
 brew theora
 brew thrift
 brew tig
+brew tinyxml
 brew tinyxml2
 brew tmux
 brew tree
