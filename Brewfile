@@ -1,7 +1,49 @@
 
 # tap repositories and their packages
 
-tap homebrew/core
+tap homebrew/bundle
+
+tap homebrew/cask-fonts
+cask font-fira-code
+cask font-noto-sans
+cask font-noto-serif
+
+tap homebrew/cask-versions
+cask adoptopenjdk8
+
+tap homebrew/services
+
+tap argon/mas
+brew mas
+
+tap aws/tap
+brew aws-sam-cli
+
+tap github/gh
+
+tap jez/formulae
+brew git-heatmap
+
+tap kyoshidajp/ghkw
+brew ghkw
+
+tap mongodb/brew
+brew mongodb-community
+brew mongodb-database-tools
+
+tap railwaycat/emacsmacport
+cask emacs-mac
+
+tap rcmdnk/file
+brew brew-file
+
+tap sanemat/font
+brew ricty --with-powerline
+
+tap tldr-pages/tldr
+brew tldr
+
+# Other Homebrew packages
 brew abseil
 brew ack
 brew afflib
@@ -21,7 +63,6 @@ brew atk
 brew augeas
 brew autoconf
 brew automake
-brew aws-sam-cli
 brew aws-shell
 brew awscli
 brew awscli@1
@@ -40,6 +81,7 @@ brew capstone
 brew ccache
 brew ccze
 brew ceres-solver
+brew cffi
 brew cheat
 brew cjson
 brew clang-format
@@ -136,6 +178,7 @@ brew hiredis
 brew httpie
 brew httpstat
 brew hub
+brew huggingface-cli
 brew hunspell
 brew icu4c
 brew imagemagick
@@ -257,7 +300,6 @@ brew m4
 brew mackup
 brew macos-term-size
 brew makedepend
-brew mas
 brew maven
 brew mbedtls
 brew md4c
@@ -326,13 +368,17 @@ brew postgresql@14
 brew progress
 brew protobuf
 brew protobuf-c
+brew protobuf@21
 brew pth
 brew pugixml
 brew pv
 brew pwgen
 brew py3cairo
+brew pycparser
+brew pygments
 brew pygobject3
 brew pyqt
+brew python-typing-extensions
 brew python@3.10
 brew python@3.11
 brew python@3.8
@@ -395,9 +441,11 @@ brew subversion
 brew suite-sparse
 brew svt-av1
 brew swig
+brew szip
 brew tbb
 brew tcl-tk
 brew terminal-notifier
+brew terraform
 brew tesseract
 brew texi2html
 brew texinfo
@@ -407,7 +455,6 @@ brew theora
 brew thrift
 brew tig
 brew tinyxml2
-brew tldr
 brew tmux
 brew tree
 brew unbound
@@ -443,19 +490,7 @@ brew zsh-completions
 brew zsh-syntax-highlighting
 brew zstd
 
-tap homebrew/bundle
-
-tap homebrew/cask-fonts
-cask font-fira-code
-cask font-noto-sans
-cask font-noto-serif
-
-tap homebrew/cask-versions
-cask adoptopenjdk8
-
-tap homebrew/services
-
-tap homebrew/cask
+# Other Cask applications
 cask alfred
 cask alt-tab
 cask android-platform-tools
@@ -465,6 +500,7 @@ cask clipy
 cask coteditor
 cask dbeaver-community
 cask dropbox
+cask flux
 cask hammerspoon
 cask haroopad
 cask insomnia
@@ -482,51 +518,23 @@ cask the-unarchiver
 cask vlc
 cask xquartz
 
-tap argon/mas
-
-tap aws/tap
-
-tap github/gh
-
-tap jez/formulae
-brew git-heatmap
-
-tap kyoshidajp/ghkw
-brew ghkw
-
-tap mongodb/brew
-brew mongodb-community
-brew mongodb-database-tools
-
-tap railwaycat/emacsmacport
-cask emacs-mac
-
-tap rcmdnk/file
-brew brew-file
-
-tap sanemat/font
-brew ricty --with-powerline
-
-tap tldr-pages/tldr
-
-# Other Homebrew packages
-brew szip
-
 # App Store applications
 appstore 937984704   Amphetamine         (5.2.2)
-appstore 1037126344  Apple Configurator  (2.15.1)
+appstore 1037126344  Apple Configurator  (2.16)
 appstore 460883588   ATOK Pad            (2.0.7)
-appstore 1545870783  Color Picker        (1.11.0)
+appstore 1545870783  Color Picker        (1.13.1)
 appstore 549083868   Display Menu        (2.2.4)
-appstore 503039729   Fotor Photo Editor  (4.4.5)
-appstore 682658836   GarageBand          (10.4.6)
-appstore 1444383602  GoodNotes           (5.9.32)
-appstore 408981434   iMovie              (10.3.4)
-appstore 409183694   Keynote             (12.1)
-appstore 405399194   Kindle              (1.38.0)
-appstore 539883307   LINE                (7.10.2)
-appstore 1564329434  Momentum            (2.6.17)
-appstore 409203825   Numbers             (12.1)
-appstore 409201541   Pages               (12.1)
+appstore 503039729   Fotor Photo Editor  (4.5.9)
+appstore 682658836   GarageBand          (10.4.8)
+appstore 1444383602  GoodNotes           (5.9.121)
+appstore 408981434   iMovie              (10.3.6)
+appstore 1615447247  KANTAN Chord        (2023.3.15)
+appstore 409183694   Keynote             (13.1)
+appstore 405399194   Kindle              (1.40.1)
+appstore 539883307   LINE                (8.0.0)
+appstore 1564329434  Momentum            (2.8.10)
+appstore 409203825   Numbers             (13.1)
+appstore 409201541   Pages               (13.1)
 appstore 1477385213  Save to Pocket      (1.1)
-appstore 803453959   Slack               (4.27.154)
+appstore 803453959   Slack               (4.33.73)
+appstore 497799835   Xcode               (14.2)
