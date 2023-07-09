@@ -284,6 +284,7 @@ brew ninja
 brew nkf
 brew nlohmann-json
 brew nmap
+brew node
 brew node-build
 brew node@14
 brew node@16
@@ -414,6 +415,7 @@ brew unison
 brew unzip
 brew utf8cpp
 brew utf8proc
+brew util-macros
 brew vde
 brew vim
 brew vimpager
@@ -463,7 +465,6 @@ cask clipy
 cask coteditor
 cask dbeaver-community
 cask dropbox
-cask flux
 cask hammerspoon
 cask haroopad
 cask insomnia
@@ -513,21 +514,19 @@ brew szip
 
 # App Store applications
 appstore 937984704   Amphetamine         (5.2.2)
-appstore 1037126344  Apple Configurator  (2.16)
+appstore 1037126344  Apple Configurator  (2.15.1)
 appstore 460883588   ATOK Pad            (2.0.7)
-appstore 1545870783  Color Picker        (1.12.1)
+appstore 1545870783  Color Picker        (1.11.0)
 appstore 549083868   Display Menu        (2.2.4)
-appstore 503039729   Fotor Photo Editor  (4.5.8)
-appstore 682658836   GarageBand          (10.4.8)
-appstore 1444383602  GoodNotes           (5.9.94)
-appstore 408981434   iMovie              (10.3.5)
-appstore 1615447247  KANTAN Chord        (2023.3.15)
-appstore 409183694   Keynote             (13.0)
-appstore 405399194   Kindle              (1.40.1)
-appstore 539883307   LINE                (7.16.1)
-appstore 1564329434  Momentum            (2.7.61)
-appstore 409203825   Numbers             (13.0)
-appstore 409201541   Pages               (13.0)
+appstore 503039729   Fotor Photo Editor  (4.4.5)
+appstore 682658836   GarageBand          (10.4.6)
+appstore 1444383602  GoodNotes           (5.9.32)
+appstore 408981434   iMovie              (10.3.4)
+appstore 409183694   Keynote             (12.1)
+appstore 405399194   Kindle              (1.38.0)
+appstore 539883307   LINE                (7.10.2)
+appstore 1564329434  Momentum            (2.6.17)
+appstore 409203825   Numbers             (12.1)
+appstore 409201541   Pages               (12.1)
 appstore 1477385213  Save to Pocket      (1.1)
-appstore 803453959   Slack               (4.29.149)
-appstore 497799835   Xcode               (14.2)
+appstore 803453959   Slack               (4.27.154)
