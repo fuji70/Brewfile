@@ -12,6 +12,7 @@ brew aom
 brew apache-spark
 brew apr
 brew apr-util
+brew aribb24
 brew arp-scan
 brew asciidoc
 brew asio
@@ -20,6 +21,7 @@ brew atk
 brew augeas
 brew autoconf
 brew automake
+brew aws-sam-cli
 brew aws-shell
 brew awscli
 brew awscli@1
@@ -34,6 +36,9 @@ brew brotli
 brew c-ares
 brew ca-certificates
 brew cairo
+brew capstone
+brew ccache
+brew ccze
 brew ceres-solver
 brew cheat
 brew cjson
@@ -62,6 +67,7 @@ brew ditaa
 brew docbook
 brew docbook-xsl
 brew docker-clean
+brew docutils
 brew dos2unix
 brew double-conversion
 brew doxygen
@@ -70,7 +76,6 @@ brew expect
 brew faac
 brew fdk-aac
 brew ffmpeg
-brew ffmpeg@4
 brew flac
 brew fmt
 brew fontconfig
@@ -126,12 +131,14 @@ brew gzip
 brew harfbuzz
 brew hdf5
 brew hicolor-icon-theme
+brew highway
 brew hiredis
 brew httpie
 brew httpstat
 brew hub
 brew hunspell
 brew icu4c
+brew imagemagick
 brew imath
 brew imlib2
 brew intltool
@@ -196,6 +203,7 @@ brew libpng
 brew libpq
 brew libproxy
 brew libpthread-stubs
+brew libraw
 brew librdkafka
 brew librist
 brew librsvg
@@ -210,6 +218,7 @@ brew libssh2
 brew libtasn1
 brew libtiff
 brew libtool
+brew libunibreak
 brew libuninameslist
 brew libunistring
 brew libusb
@@ -278,12 +287,10 @@ brew nmap
 brew node-build
 brew node@14
 brew node@16
-brew numpy
 brew oniguruma
 brew openblas
 brew openconnect
 brew opencore-amr
-brew opencv
 brew openexr
 brew openjdk
 brew openjdk@11
@@ -297,6 +304,7 @@ brew orc
 brew p11-kit
 brew pango
 brew parallel
+brew parquet-cli
 brew pcre
 brew pcre2
 brew peco
@@ -312,8 +320,8 @@ brew pmd
 brew pngquant
 brew popt
 brew portaudio
-brew postgresql
 brew postgresql@11
+brew postgresql@14
 brew progress
 brew protobuf
 brew protobuf-c
@@ -322,13 +330,13 @@ brew pugixml
 brew pv
 brew pwgen
 brew py3cairo
-brew pyenv
 brew pygobject3
 brew pyqt
-brew pyqt@5
 brew python@3.10
+brew python@3.11
 brew python@3.8
 brew python@3.9
+brew pyyaml
 brew qemu
 brew qt
 brew qt@5
@@ -360,7 +368,7 @@ brew sbt
 brew scala
 brew schroedinger
 brew scons
-brew sdl
+brew sdl12-compat
 brew sdl2
 brew shared-mime-info
 brew shellcheck
@@ -384,6 +392,7 @@ brew ssh-copy-id
 brew stoken
 brew subversion
 brew suite-sparse
+brew svt-av1
 brew swig
 brew tbb
 brew tcl-tk
@@ -408,10 +417,10 @@ brew utf8proc
 brew vde
 brew vim
 brew vimpager
-brew vtk
 brew watch
 brew webp
 brew wget
+brew woff2
 brew x264
 brew x265
 brew xml2
@@ -427,7 +436,9 @@ brew yq
 brew zeromq
 brew zimg
 brew zlib
+brew zsh-autosuggestions
 brew zsh-completions
+brew zsh-syntax-highlighting
 brew zstd
 
 tap homebrew/bundle
@@ -447,7 +458,7 @@ cask alfred
 cask alt-tab
 cask android-platform-tools
 cask appcleaner
-cask betterzip
+cask audacity
 cask clipy
 cask coteditor
 cask dbeaver-community
@@ -457,6 +468,7 @@ cask hammerspoon
 cask haroopad
 cask insomnia
 cask iterm2
+cask jdiskreport
 cask kindle-previewer
 cask menumeters
 cask qlmarkdown
@@ -472,7 +484,6 @@ cask xquartz
 tap argon/mas
 
 tap aws/tap
-brew aws-sam-cli
 
 tap github/gh
 
@@ -497,21 +508,26 @@ brew ricty --with-powerline
 
 tap tldr-pages/tldr
 
+# Other Homebrew packages
+brew szip
+
 # App Store applications
 appstore 937984704   Amphetamine         (5.2.2)
-appstore 1037126344  Apple Configurator  (2.15.1)
+appstore 1037126344  Apple Configurator  (2.16)
 appstore 460883588   ATOK Pad            (2.0.7)
-appstore 1545870783  Color Picker        (1.11.0)
+appstore 1545870783  Color Picker        (1.12.1)
 appstore 549083868   Display Menu        (2.2.4)
-appstore 503039729   Fotor Photo Editor  (4.4.5)
-appstore 682658836   GarageBand          (10.4.6)
-appstore 1444383602  GoodNotes           (5.9.32)
-appstore 408981434   iMovie              (10.3.4)
-appstore 409183694   Keynote             (12.1)
-appstore 405399194   Kindle              (1.38.0)
-appstore 539883307   LINE                (7.10.2)
-appstore 1564329434  Momentum            (2.6.17)
-appstore 409203825   Numbers             (12.1)
-appstore 409201541   Pages               (12.1)
+appstore 503039729   Fotor Photo Editor  (4.5.8)
+appstore 682658836   GarageBand          (10.4.8)
+appstore 1444383602  GoodNotes           (5.9.94)
+appstore 408981434   iMovie              (10.3.5)
+appstore 1615447247  KANTAN Chord        (2023.3.15)
+appstore 409183694   Keynote             (13.0)
+appstore 405399194   Kindle              (1.40.1)
+appstore 539883307   LINE                (7.16.1)
+appstore 1564329434  Momentum            (2.7.61)
+appstore 409203825   Numbers             (13.0)
+appstore 409201541   Pages               (13.0)
 appstore 1477385213  Save to Pocket      (1.1)
-appstore 803453959   Slack               (4.27.154)
+appstore 803453959   Slack               (4.29.149)
+appstore 497799835   Xcode               (14.2)
