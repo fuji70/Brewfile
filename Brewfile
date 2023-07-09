@@ -424,7 +424,6 @@ brew subversion
 brew suite-sparse
 brew svt-av1
 brew swig
-brew szip
 brew tbb
 brew tcl-tk
 brew terminal-notifier
