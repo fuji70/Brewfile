@@ -475,7 +475,6 @@ brew zstd
 # Other Cask applications
 cask alfred
 cask alt-tab
-cask android-platform-tools
 cask appcleaner
 cask audacity
 cask clipy
@@ -507,13 +506,13 @@ appstore 1545870783  Color Picker        (1.13.1)
 appstore 549083868   Display Menu        (2.2.4)
 appstore 503039729   Fotor Photo Editor  (4.5.9)
 appstore 682658836   GarageBand          (10.4.8)
-appstore 1444383602  GoodNotes           (5.9.121)
+appstore 1444383602  GoodNotes           (5.9.122)
 appstore 408981434   iMovie              (10.3.6)
 appstore 1615447247  KANTAN Chord        (2023.3.15)
 appstore 409183694   Keynote             (13.1)
 appstore 405399194   Kindle              (1.40.1)
 appstore 539883307   LINE                (8.0.0)
-appstore 1564329434  Momentum            (2.8.10)
+appstore 1564329434  Momentum            (2.9.0)
 appstore 409203825   Numbers             (13.1)
 appstore 409201541   Pages               (13.1)
 appstore 1477385213  Save to Pocket      (1.1)
