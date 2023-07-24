@@ -354,7 +354,7 @@ brew pngquant
 brew popt
 brew portaudio
 brew postgresql@11
-brew postgresql@14
+brew postgresql@15
 brew progress
 brew protobuf
 brew protobuf-c
@@ -506,7 +506,7 @@ appstore 1545870783  Color Picker        (1.13.1)
 appstore 549083868   Display Menu        (2.2.4)
 appstore 503039729   Fotor Photo Editor  (4.5.9)
 appstore 682658836   GarageBand          (10.4.8)
-appstore 1444383602  GoodNotes           (5.9.122)
+appstore 1444383602  GoodNotes           (5.9.124)
 appstore 408981434   iMovie              (10.3.7)
 appstore 1615447247  KANTAN Chord        (2023.3.15)
 appstore 409183694   Keynote             (13.1)
