@@ -17,7 +17,6 @@ tap argon/mas
 brew mas
 
 tap aws/tap
-brew aws-sam-cli
 
 tap github/gh
 
@@ -63,6 +62,7 @@ brew atk
 brew augeas
 brew autoconf
 brew automake
+brew aws-sam-cli
 brew aws-shell
 brew awscli
 brew awscli@1
@@ -112,6 +112,8 @@ brew docutils
 brew dos2unix
 brew double-conversion
 brew doxygen
+brew dtc
+brew duktape
 brew eigen
 brew expect
 brew faac
@@ -368,6 +370,13 @@ brew pycparser
 brew pygments
 brew pygobject3
 brew pyqt
+brew python-certifi
+brew python-cryptography
+brew python-lxml
+brew python-markdown
+brew python-markupsafe
+brew python-packaging
+brew python-pytz
 brew python-typing-extensions
 brew python@3.10
 brew python@3.11
@@ -500,22 +509,22 @@ cask vlc
 cask xquartz
 
 # App Store applications
-appstore 937984704   Amphetamine         (5.2.2)
+appstore 937984704   Amphetamine         (5.3)
 appstore 1037126344  Apple Configurator  (2.16)
 appstore 460883588   ATOK Pad            (2.0.7)
 appstore 1545870783  Color Picker        (1.13.1)
-appstore 549083868   Display Menu        (2.2.4)
-appstore 503039729   Fotor Photo Editor  (4.5.9)
+appstore 549083868   Display Menu        (2.2.5)
+appstore 503039729   Fotor Photo Editor  (4.6.1)
 appstore 682658836   GarageBand          (10.4.8)
-appstore 1444383602  GoodNotes           (5.9.124)
-appstore 408981434   iMovie              (10.3.7)
-appstore 1615447247  KANTAN Chord        (2023.3.15)
+appstore 1444383602  Goodnotes           (6.0.10)
+appstore 408981434   iMovie              (10.3.8)
+appstore 1615447247  KANTAN Chord        (2023.8.8)
 appstore 409183694   Keynote             (13.1)
-appstore 405399194   Kindle              (1.40.1)
-appstore 539883307   LINE                (8.0.0)
-appstore 1564329434  Momentum            (2.9.0)
+appstore 405399194   Kindle Classic      (1.40.2)
+appstore 539883307   LINE                (8.2.0)
+appstore 1564329434  Momentum            (2.11.8)
 appstore 409203825   Numbers             (13.1)
 appstore 409201541   Pages               (13.1)
 appstore 1477385213  Save to Pocket      (1.1)
-appstore 803453959   Slack               (4.33.73)
+appstore 803453959   Slack               (4.34.115)
 appstore 497799835   Xcode               (14.3.1)
