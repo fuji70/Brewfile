@@ -475,6 +475,7 @@ brew zstd
 # Other Cask applications
 cask alfred
 cask alt-tab
+cask android-platform-tools
 cask appcleaner
 cask audacity
 cask clipy
