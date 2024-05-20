@@ -1,48 +1,7 @@
 
 # tap repositories and their packages
 
-tap homebrew/bundle
-
-tap homebrew/cask-fonts
-cask font-fira-code
-cask font-noto-sans
-cask font-noto-serif
-
-tap homebrew/cask-versions
-cask adoptopenjdk8
-
-tap homebrew/services
-
-tap argon/mas
-brew mas
-
-tap aws/tap
-
-tap github/gh
-
-tap jez/formulae
-brew git-heatmap
-
-tap kyoshidajp/ghkw
-brew ghkw
-
-tap mongodb/brew
-brew mongodb-community
-brew mongodb-database-tools
-
-tap railwaycat/emacsmacport
-cask emacs-mac
-
-tap rcmdnk/file
-brew brew-file
-
-tap sanemat/font
-brew ricty --with-powerline
-
-tap tldr-pages/tldr
-brew tldr
-
-# Other Homebrew packages
+tap homebrew/core
 brew abseil
 brew ack
 brew afflib
@@ -58,6 +17,7 @@ brew arp-scan
 brew asciidoc
 brew asio
 brew assimp
+brew at-spi2-core
 brew augeas
 brew autoconf
 brew automake
@@ -70,6 +30,7 @@ brew bazel
 brew bdw-gc
 brew bear
 brew berkeley-db
+brew berkeley-db@5
 brew bison
 brew boost
 brew brotli
@@ -79,6 +40,7 @@ brew cairo
 brew capstone
 brew ccache
 brew ceres-solver
+brew certifi
 brew cffi
 brew cheat
 brew cjson
@@ -86,7 +48,6 @@ brew clang-format
 brew cloc
 brew cloog
 brew cmake
-brew cmocka
 brew colordiff
 brew connect
 brew convmv
@@ -95,6 +56,7 @@ brew corkscrew
 brew cpanminus
 brew cppcheck
 brew cppunit
+brew cryptography
 brew ctags
 brew ctop
 brew curl
@@ -139,7 +101,6 @@ brew ghostscript
 brew ghq
 brew giflib
 brew git
-brew git-flow-avh
 brew git-lfs
 brew git-secrets
 brew gitbucket
@@ -148,11 +109,12 @@ brew glew
 brew glib
 brew glog
 brew gmp
-brew gnu-getopt
 brew gnu-sed
 brew gnu-time
+brew gnupg
 brew gnutls
 brew go
+brew go@1.21
 brew gobject-introspection
 brew gperftools
 brew gradle
@@ -165,7 +127,6 @@ brew gtk+
 brew gtk+3
 brew gtk-mac-integration
 brew gts
-brew guile
 brew gzip
 brew harfbuzz
 brew hdf5
@@ -176,11 +137,13 @@ brew httpie
 brew httpstat
 brew huggingface-cli
 brew hunspell
+brew hwloc
 brew icu4c
 brew imagemagick
 brew imath
 brew imlib2
 brew intltool
+brew iproute2mac
 brew isl
 brew jansson
 brew jasper
@@ -189,7 +152,6 @@ brew jemalloc
 brew jenkins
 brew jhead
 brew jo
-brew jpeg
 brew jpeg-turbo
 brew jpeg-xl
 brew jq
@@ -229,6 +191,7 @@ brew liblo
 brew liblqr
 brew libmagic
 brew libmetalink
+brew libmicrohttpd
 brew libmng
 brew libmpc
 brew libnghttp2
@@ -238,7 +201,6 @@ brew libpcap
 brew libpng
 brew libpq
 brew libproxy
-brew libpthread-stubs
 brew libraw
 brew librdkafka
 brew librist
@@ -270,18 +232,21 @@ brew libxau
 brew libxcb
 brew libxdmcp
 brew libxext
+brew libxfixes
+brew libxi
 brew libxml2
 brew libxmlsec1
 brew libxrender
 brew libxslt
+brew libxtst
 brew libyaml
 brew libzip
+brew licensed
 brew little-cms2
 brew lldpd
 brew lnav
 brew lsyncd
 brew lua
-brew lua@5.3
 brew lv
 brew lynx
 brew lz4
@@ -290,8 +255,8 @@ brew lzo
 brew m-cli
 brew m4
 brew mackup
-brew macos-term-size
 brew makedepend
+brew mas
 brew maven
 brew mbedtls
 brew md4c
@@ -320,7 +285,7 @@ brew nlohmann-json
 brew nmap
 brew node
 brew node-build
-brew node@16
+brew npth
 brew oniguruma
 brew openblas
 brew openconnect
@@ -346,6 +311,7 @@ brew perl
 brew perl-build
 brew pidcat
 brew pinentry
+brew pipx
 brew pixman
 brew pkg-config
 brew plantuml
@@ -369,17 +335,11 @@ brew pycparser
 brew pygments
 brew pygobject3
 brew pyqt
-brew python-lxml
-brew python-markdown
-brew python-markupsafe
-brew python-packaging
-brew python-pytz
-brew python-typing-extensions
+brew python-setuptools
 brew python@3.10
 brew python@3.11
-brew python@3.8
+brew python@3.12
 brew python@3.9
-brew pyyaml
 brew qemu
 brew qt
 brew r
@@ -444,6 +404,7 @@ brew thrift
 brew tig
 brew tinyxml
 brew tinyxml2
+brew tldr
 brew tmux
 brew tree
 brew unbound
@@ -461,7 +422,6 @@ brew wget
 brew woff2
 brew x264
 brew x265
-brew xmlto
 brew xorgproto
 brew xsv
 brew xvid
@@ -478,7 +438,7 @@ brew zsh-completions
 brew zsh-syntax-highlighting
 brew zstd
 
-# Other Cask applications
+tap homebrew/cask
 cask alfred
 cask alt-tab
 cask android-platform-tools
@@ -489,39 +449,86 @@ cask coteditor
 cask dbeaver-community
 cask dropbox
 cask flux
+cask font-fira-code
+cask font-noto-sans
+cask google-cloud-sdk
 cask hammerspoon
 cask insomnia
 cask iterm2
 cask jdiskreport
-cask kindle-previewer
+cask keyclu
 cask menumeters
 cask qlmarkdown
 cask qlstephen
 cask quicklook-csv
 cask quicklook-json
+cask raycast
+cask shifty
 cask skitch
 cask sourcetree
 cask the-unarchiver
+cask timemachinestatus
 cask vlc
 cask xquartz
 
+tap homebrew/bundle
+
+tap homebrew/cask-fonts
+
+tap homebrew/cask-versions
+
+tap homebrew/services
+
+tap argon/mas
+
+tap aws/tap
+
+tap github/gh
+
+tap jez/formulae
+brew git-heatmap
+
+tap kyoshidajp/ghkw
+brew ghkw
+
+tap mongodb/brew
+brew mongodb-community
+brew mongodb-database-tools
+
+tap railwaycat/emacsmacport
+cask emacs-mac
+
+tap rcmdnk/file
+brew brew-file
+
+tap sanemat/font
+brew ricty --with-powerline
+
+tap tldr-pages/tldr
+
 # App Store applications
-appstore 937984704   Amphetamine         (5.3)
-appstore 1037126344  Apple Configurator  (2.16)
-appstore 460883588   ATOK Pad            (2.0.7)
-appstore 1545870783  Color Picker        (1.13.1)
-appstore 549083868   Display Menu        (2.2.5)
-appstore 503039729   Fotor Photo Editor  (4.6.1)
-appstore 682658836   GarageBand          (10.4.8)
-appstore 1444383602  Goodnotes           (6.0.10)
-appstore 408981434   iMovie              (10.3.8)
-appstore 1615447247  KANTAN Chord        (2023.8.8)
-appstore 409183694   Keynote             (13.1)
-appstore 405399194   Kindle Classic      (1.40.2)
-appstore 539883307   LINE                (8.2.0)
-appstore 1564329434  Momentum            (2.11.8)
-appstore 409203825   Numbers             (13.1)
-appstore 409201541   Pages               (13.1)
-appstore 1477385213  Save to Pocket      (1.1)
-appstore 803453959   Slack               (4.34.115)
-appstore 497799835   Xcode               (14.3.1)
+appstore 1569813296 1Password for Safari (2.23.3)
+appstore 302584613 Amazon Kindle (7.11)
+appstore 937984704 Amphetamine (5.3.2)
+appstore 1037126344 Apple Configurator (2.17)
+appstore 460883588 ATOKPad (2.0.7)
+appstore 425264550 Blackmagic Disk Speed Test (3.4.2)
+appstore 1545870783 Color Picker (2.0.1)
+appstore 549083868 Display Menu (2.2.5)
+appstore 503039729 Fotor Photo Editor (4.7.7)
+appstore 682658836 GarageBand (10.4.11)
+appstore 1444383602 Goodnotes (6.3.27)
+appstore 408981434 iMovie (10.4)
+appstore 1615447247 KANTAN Chord (2023.12.20)
+appstore 409183694 Keynote (14.0)
+appstore 539883307 LINE (8.7.0)
+appstore 530194517 MachineProfile (1.4.24)
+appstore 1295203466 Microsoft Remote Desktop (10.9.6)
+appstore 1564329434 Momentum (2.13.32)
+appstore 1664344174 NEEWER Control Center (3.1.0)
+appstore 409203825 Numbers (14.0)
+appstore 409201541 Pages (14.0)
+appstore 1477385213 Save to Pocket (1.1)
+appstore 803453959 Slack (4.38.121)
+appstore 1475387142 Tailscale (1.64.0)
+appstore 497799835 Xcode (15.4)
