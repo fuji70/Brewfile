@@ -58,7 +58,6 @@ brew arp-scan
 brew asciidoc
 brew asio
 brew assimp
-brew atk
 brew augeas
 brew autoconf
 brew automake
@@ -370,8 +369,6 @@ brew pycparser
 brew pygments
 brew pygobject3
 brew pyqt
-brew python-certifi
-brew python-cryptography
 brew python-lxml
 brew python-markdown
 brew python-markupsafe
